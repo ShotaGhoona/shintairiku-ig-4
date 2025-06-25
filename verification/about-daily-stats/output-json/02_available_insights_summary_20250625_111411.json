@@ -1,0 +1,533 @@
+{
+  "verification_date": "2025-06-25T11:14:11.549448",
+  "available_metrics_count": 2,
+  "available_metrics": {
+    "follower_count": {
+      "metric_name": "follower_count",
+      "available": true,
+      "period_results": {
+        "yesterday": {
+          "status": "success",
+          "value": 0,
+          "end_time": "2025-06-24T07:00:00+0000",
+          "metric_info": {
+            "name": "follower_count",
+            "period": "day",
+            "title": "フォロワー数",
+            "description": "このプロフィールをフォロー中のユニークアカウントの合計数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "follower_count",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "フォロワー数",
+                "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+                "id": "17841455808057230/insights/follower_count/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750636799&until=1750723199&metric=follower_count&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1750896001&metric=follower_count&period=day"
+            }
+          }
+        },
+        "last_7_days": {
+          "status": "success",
+          "value": 2,
+          "end_time": "2025-06-18T07:00:00+0000",
+          "metric_info": {
+            "name": "follower_count",
+            "period": "day",
+            "title": "フォロワー数",
+            "description": "このプロフィールをフォロー中のユニークアカウントの合計数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "follower_count",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-18T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-19T07:00:00+0000"
+                  },
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-20T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-21T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-22T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-23T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "フォロワー数",
+                "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+                "id": "17841455808057230/insights/follower_count/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1749599999&until=1750204799&metric=follower_count&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1751414401&metric=follower_count&period=day"
+            }
+          }
+        },
+        "last_30_days": {
+          "status": "success",
+          "value": 1,
+          "end_time": "2025-05-26T07:00:00+0000",
+          "metric_info": {
+            "name": "follower_count",
+            "period": "day",
+            "title": "フォロワー数",
+            "description": "このプロフィールをフォロー中のユニークアカウントの合計数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "follower_count",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 1,
+                    "end_time": "2025-05-26T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-05-27T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-05-28T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-05-29T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-05-30T07:00:00+0000"
+                  },
+                  {
+                    "value": 4,
+                    "end_time": "2025-05-31T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-01T07:00:00+0000"
+                  },
+                  {
+                    "value": 5,
+                    "end_time": "2025-06-02T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-03T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-04T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-05T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-06T07:00:00+0000"
+                  },
+                  {
+                    "value": 5,
+                    "end_time": "2025-06-07T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-08T07:00:00+0000"
+                  },
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-09T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-10T07:00:00+0000"
+                  },
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-11T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-12T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-13T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-14T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-15T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-16T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-17T07:00:00+0000"
+                  },
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-18T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-19T07:00:00+0000"
+                  },
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-20T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-21T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-22T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-23T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "フォロワー数",
+                "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+                "id": "17841455808057230/insights/follower_count/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1745625599&until=1748217599&metric=follower_count&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1753401601&metric=follower_count&period=day"
+            }
+          }
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": "yesterday",
+      "sample_data": 0,
+      "data_structure": {
+        "name": "follower_count",
+        "period": "day",
+        "values": [
+          {
+            "value": 0,
+            "end_time": "2025-06-24T07:00:00+0000"
+          }
+        ],
+        "title": "フォロワー数",
+        "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+        "id": "17841455808057230/insights/follower_count/day"
+      }
+    },
+    "reach": {
+      "metric_name": "reach",
+      "available": true,
+      "period_results": {
+        "yesterday": {
+          "status": "success",
+          "value": 8,
+          "end_time": "2025-06-24T07:00:00+0000",
+          "metric_info": {
+            "name": "reach",
+            "period": "day",
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "reach",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 8,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "リーチ",
+                "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+                "id": "17841455808057230/insights/reach/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750636799&until=1750723199&metric=reach&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1750896001&metric=reach&period=day"
+            }
+          }
+        },
+        "last_7_days": {
+          "status": "success",
+          "value": 3996,
+          "end_time": "2025-06-18T07:00:00+0000",
+          "metric_info": {
+            "name": "reach",
+            "period": "day",
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "reach",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 3996,
+                    "end_time": "2025-06-18T07:00:00+0000"
+                  },
+                  {
+                    "value": 11186,
+                    "end_time": "2025-06-19T07:00:00+0000"
+                  },
+                  {
+                    "value": 7295,
+                    "end_time": "2025-06-20T07:00:00+0000"
+                  },
+                  {
+                    "value": 6197,
+                    "end_time": "2025-06-21T07:00:00+0000"
+                  },
+                  {
+                    "value": 44,
+                    "end_time": "2025-06-22T07:00:00+0000"
+                  },
+                  {
+                    "value": 50,
+                    "end_time": "2025-06-23T07:00:00+0000"
+                  },
+                  {
+                    "value": 8,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "リーチ",
+                "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+                "id": "17841455808057230/insights/reach/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1749599999&until=1750204799&metric=reach&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1751414401&metric=reach&period=day"
+            }
+          }
+        },
+        "last_30_days": {
+          "status": "success",
+          "value": 692,
+          "end_time": "2025-05-26T07:00:00+0000",
+          "metric_info": {
+            "name": "reach",
+            "period": "day",
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "reach",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 692,
+                    "end_time": "2025-05-26T07:00:00+0000"
+                  },
+                  {
+                    "value": 384,
+                    "end_time": "2025-05-27T07:00:00+0000"
+                  },
+                  {
+                    "value": 371,
+                    "end_time": "2025-05-28T07:00:00+0000"
+                  },
+                  {
+                    "value": 435,
+                    "end_time": "2025-05-29T07:00:00+0000"
+                  },
+                  {
+                    "value": 925,
+                    "end_time": "2025-05-30T07:00:00+0000"
+                  },
+                  {
+                    "value": 3757,
+                    "end_time": "2025-05-31T07:00:00+0000"
+                  },
+                  {
+                    "value": 3230,
+                    "end_time": "2025-06-01T07:00:00+0000"
+                  },
+                  {
+                    "value": 4068,
+                    "end_time": "2025-06-02T07:00:00+0000"
+                  },
+                  {
+                    "value": 3036,
+                    "end_time": "2025-06-03T07:00:00+0000"
+                  },
+                  {
+                    "value": 2090,
+                    "end_time": "2025-06-04T07:00:00+0000"
+                  },
+                  {
+                    "value": 2181,
+                    "end_time": "2025-06-05T07:00:00+0000"
+                  },
+                  {
+                    "value": 1948,
+                    "end_time": "2025-06-06T07:00:00+0000"
+                  },
+                  {
+                    "value": 1522,
+                    "end_time": "2025-06-07T07:00:00+0000"
+                  },
+                  {
+                    "value": 1056,
+                    "end_time": "2025-06-08T07:00:00+0000"
+                  },
+                  {
+                    "value": 1066,
+                    "end_time": "2025-06-09T07:00:00+0000"
+                  },
+                  {
+                    "value": 1198,
+                    "end_time": "2025-06-10T07:00:00+0000"
+                  },
+                  {
+                    "value": 966,
+                    "end_time": "2025-06-11T07:00:00+0000"
+                  },
+                  {
+                    "value": 864,
+                    "end_time": "2025-06-12T07:00:00+0000"
+                  },
+                  {
+                    "value": 1796,
+                    "end_time": "2025-06-13T07:00:00+0000"
+                  },
+                  {
+                    "value": 1550,
+                    "end_time": "2025-06-14T07:00:00+0000"
+                  },
+                  {
+                    "value": 876,
+                    "end_time": "2025-06-15T07:00:00+0000"
+                  },
+                  {
+                    "value": 1485,
+                    "end_time": "2025-06-16T07:00:00+0000"
+                  },
+                  {
+                    "value": 1673,
+                    "end_time": "2025-06-17T07:00:00+0000"
+                  },
+                  {
+                    "value": 3996,
+                    "end_time": "2025-06-18T07:00:00+0000"
+                  },
+                  {
+                    "value": 11186,
+                    "end_time": "2025-06-19T07:00:00+0000"
+                  },
+                  {
+                    "value": 7295,
+                    "end_time": "2025-06-20T07:00:00+0000"
+                  },
+                  {
+                    "value": 6197,
+                    "end_time": "2025-06-21T07:00:00+0000"
+                  },
+                  {
+                    "value": 44,
+                    "end_time": "2025-06-22T07:00:00+0000"
+                  },
+                  {
+                    "value": 50,
+                    "end_time": "2025-06-23T07:00:00+0000"
+                  },
+                  {
+                    "value": 8,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "リーチ",
+                "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+                "id": "17841455808057230/insights/reach/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1745625599&until=1748217599&metric=reach&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1753401601&metric=reach&period=day"
+            }
+          }
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": "yesterday",
+      "sample_data": 8,
+      "data_structure": {
+        "name": "reach",
+        "period": "day",
+        "values": [
+          {
+            "value": 8,
+            "end_time": "2025-06-24T07:00:00+0000"
+          }
+        ],
+        "title": "リーチ",
+        "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+        "id": "17841455808057230/insights/reach/day"
+      }
+    }
+  },
+  "recommended_combinations": []
+}

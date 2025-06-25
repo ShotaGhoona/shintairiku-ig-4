@@ -1,0 +1,923 @@
+{
+  "exploration_date": "2025-06-25T11:13:22.666038",
+  "instagram_user_id": "17841455808057230",
+  "endpoint_exploration": {
+    "https://graph.facebook.com/17841455808057230/insights": {
+      "status": "bad_request",
+      "status_code": 400,
+      "error_message": "(#100) For field 'insights': The parameter metric is required",
+      "error_type": "OAuthException"
+    },
+    "https://graph.facebook.com/17841455808057230/media_insights": {
+      "status": "bad_request",
+      "status_code": 400,
+      "error_message": "Unknown path components: /media_insights",
+      "error_type": "OAuthException"
+    },
+    "https://graph.facebook.com/17841455808057230/analytics": {
+      "status": "bad_request",
+      "status_code": 400,
+      "error_message": "(#100) Tried accessing nonexisting field (analytics) on node type (IGUser)",
+      "error_type": "OAuthException"
+    },
+    "https://graph.facebook.com/17841455808057230/stats": {
+      "status": "bad_request",
+      "status_code": 400,
+      "error_message": "(#100) Tried accessing nonexisting field (stats) on node type (IGUser)",
+      "error_type": "OAuthException"
+    },
+    "https://graph.facebook.com/17841455808057230/daily_stats": {
+      "status": "bad_request",
+      "status_code": 400,
+      "error_message": "Unknown path components: /daily_stats",
+      "error_type": "OAuthException"
+    },
+    "https://graph.facebook.com/17841455808057230": {
+      "status": "success",
+      "status_code": 200,
+      "data_structure": [
+        "id"
+      ],
+      "sample_data": {
+        "id": "17841455808057230"
+      }
+    },
+    "https://graph.facebook.com/v23.0/17841455808057230/insights": {
+      "status": "bad_request",
+      "status_code": 400,
+      "error_message": "(#100) For field 'insights': The parameter metric is required",
+      "error_type": "OAuthException"
+    },
+    "https://graph.facebook.com/v23.0/17841455808057230/media_insights": {
+      "status": "bad_request",
+      "status_code": 400,
+      "error_message": "Unknown path components: /media_insights",
+      "error_type": "OAuthException"
+    }
+  },
+  "metrics_exploration": {
+    "follower_count": {
+      "periods_tested": {
+        "day": {
+          "status": "success",
+          "value": 0,
+          "period_info": "day",
+          "title": "フォロワー数",
+          "description": "このプロフィールをフォロー中のユニークアカウントの合計数です"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following periods (week) are incompatible with the metric (follower_count)"
+        },
+        "days_28": {
+          "status": "success",
+          "value": 0,
+          "period_info": "day",
+          "title": "フォロワー数",
+          "description": "このプロフィールをフォロー中のユニークアカウントの合計数です"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": true,
+      "best_period": "day"
+    },
+    "followers_count": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "total_followers": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "new_followers": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "follower_demographics": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (follower_demographics) should be specified with parameter metric_type=total_value"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (follower_demographics) should be specified with parameter metric_type=total_value"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (follower_demographics) should be specified with parameter metric_type=total_value"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "follower_growth": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "reach": {
+      "periods_tested": {
+        "day": {
+          "status": "success",
+          "value": 8,
+          "period_info": "day",
+          "title": "リーチ",
+          "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+        },
+        "week": {
+          "status": "success",
+          "value": 9766,
+          "period_info": "week",
+          "title": "リーチ",
+          "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+        },
+        "days_28": {
+          "status": "success",
+          "value": 371,
+          "period_info": "day",
+          "title": "リーチ",
+          "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": true,
+      "best_period": "day"
+    },
+    "impressions": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) Starting from version 22 and above, the impressions metric is no longer supported for the queried user. Please refer to the documentation at https://developers.facebook.com/docs/instagram-api/reference/ig-user/insights for a list of supported metrics."
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) Starting from version 22 and above, the impressions metric is no longer supported for the queried user. Please refer to the documentation at https://developers.facebook.com/docs/instagram-api/reference/ig-user/insights for a list of supported metrics."
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) Starting from version 22 and above, the impressions metric is no longer supported for the queried user. Please refer to the documentation at https://developers.facebook.com/docs/instagram-api/reference/ig-user/insights for a list of supported metrics."
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "total_reach": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "daily_reach": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "accounts_engaged": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (accounts_engaged) should be specified with parameter metric_type=total_value"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (accounts_engaged) should be specified with parameter metric_type=total_value"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (accounts_engaged) should be specified with parameter metric_type=total_value"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "accounts_reached": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "profile_views": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "profile_visits": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "profile_activity": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "website_clicks": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (website_clicks) should be specified with parameter metric_type=total_value"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (website_clicks) should be specified with parameter metric_type=total_value"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (website_clicks) should be specified with parameter metric_type=total_value"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "get_directions_clicks": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "phone_number_clicks": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "email_contacts": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "text_message_clicks": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "total_interactions": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (total_interactions) should be specified with parameter metric_type=total_value"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (total_interactions) should be specified with parameter metric_type=total_value"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (total_interactions) should be specified with parameter metric_type=total_value"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "likes": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (likes) should be specified with parameter metric_type=total_value"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (likes) should be specified with parameter metric_type=total_value"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (likes) should be specified with parameter metric_type=total_value"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "comments": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (comments) should be specified with parameter metric_type=total_value"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (comments) should be specified with parameter metric_type=total_value"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (comments) should be specified with parameter metric_type=total_value"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "shares": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (shares) should be specified with parameter metric_type=total_value"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (shares) should be specified with parameter metric_type=total_value"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (shares) should be specified with parameter metric_type=total_value"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "saves": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (saves) should be specified with parameter metric_type=total_value"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (saves) should be specified with parameter metric_type=total_value"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (saves) should be specified with parameter metric_type=total_value"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "engagement": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "engagement_rate": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "posts_count": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "stories_count": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "reels_count": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "online_followers": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) The following periods (day) are incompatible with the metric (online_followers)"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following periods (week) are incompatible with the metric (online_followers)"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) The following periods (day) are incompatible with the metric (online_followers)"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "audience_locale": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "audience_country": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "audience_city": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    },
+    "audience_gender_age": {
+      "periods_tested": {
+        "day": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "days_28": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "available": false,
+      "best_period": null
+    }
+  },
+  "account_info_exploration": {
+    "account_type": {
+      "status": "error",
+      "error": "(#100) Tried accessing nonexisting field (account_type) on node type (IGUser)"
+    },
+    "id": {
+      "status": "success",
+      "value": "17841455808057230"
+    },
+    "media_count": {
+      "status": "success",
+      "value": 411
+    },
+    "username": {
+      "status": "success",
+      "value": "yamasa_renovation"
+    },
+    "name": {
+      "status": "success",
+      "value": "ヤマサリノベ | 鹿児島市 / 姶良市 / 日置市 | リノベーション / リフォーム"
+    },
+    "profile_picture_url": {
+      "status": "success",
+      "value": "https://scontent-nrt1-1.xx.fbcdn.net/v/t51.2885-15/412183010_1206013827022784_7469412081947786505_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7d201b&_nc_ohc=6kb-sesBweUQ7kNvwFmqWpm&_nc_oc=AdnDC6Lvgh_jlXUJzP2FQFqLJInIQwBNtszLaX9M_H4d1z6L9TR2QdRMwN89h3octzQ&_nc_zt=23&_nc_ht=scontent-nrt1-1.xx&edm=AL-3X8kEAAAA&oh=00_AfNL7b91FV-qT3sQb0c4X7wqEDMDy7cjO67J2CQ_XLdRhw&oe=68612C86"
+    },
+    "biography": {
+      "status": "success",
+      "value": "＼もっと、リノベーションを楽しもう✨／\n鹿児島で「安心して任せられる」リノベ専門店\n● 鹿児島県リフォームランキング2024年 No.1  \n● 性能・断熱・使いやすさ・おしゃれもとことん  \n● 戸建て・マンション・木造・RC 実績多数  \n📩 資料請求・見学予約はリンクから！"
+    },
+    "website": {
+      "status": "success",
+      "value": "https://yamasa-renovation.jp"
+    },
+    "followers_count": {
+      "status": "success",
+      "value": 455
+    },
+    "follows_count": {
+      "status": "success",
+      "value": 17
+    },
+    "business_discovery": {
+      "status": "error",
+      "error": "(#100) The parameter username is required."
+    },
+    "combined_fields": {
+      "status": "success",
+      "fields": [
+        "id",
+        "media_count",
+        "username",
+        "name",
+        "profile_picture_url",
+        "biography",
+        "website",
+        "followers_count",
+        "follows_count"
+      ],
+      "data": {
+        "id": "17841455808057230",
+        "media_count": 411,
+        "username": "yamasa_renovation",
+        "name": "ヤマサリノベ | 鹿児島市 / 姶良市 / 日置市 | リノベーション / リフォーム",
+        "profile_picture_url": "https://scontent-nrt1-1.xx.fbcdn.net/v/t51.2885-15/412183010_1206013827022784_7469412081947786505_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7d201b&_nc_ohc=6kb-sesBweUQ7kNvwFmqWpm&_nc_oc=AdnDC6Lvgh_jlXUJzP2FQFqLJInIQwBNtszLaX9M_H4d1z6L9TR2QdRMwN89h3octzQ&_nc_zt=23&_nc_ht=scontent-nrt1-1.xx&edm=AL-3X8kEAAAA&oh=00_AfNL7b91FV-qT3sQb0c4X7wqEDMDy7cjO67J2CQ_XLdRhw&oe=68612C86",
+        "biography": "＼もっと、リノベーションを楽しもう✨／\n鹿児島で「安心して任せられる」リノベ専門店\n● 鹿児島県リフォームランキング2024年 No.1  \n● 性能・断熱・使いやすさ・おしゃれもとことん  \n● 戸建て・マンション・木造・RC 実績多数  \n📩 資料請求・見学予約はリンクから！",
+        "website": "https://yamasa-renovation.jp",
+        "followers_count": 455,
+        "follows_count": 17
+      }
+    }
+  },
+  "summary": {
+    "total_endpoints_tested": 8,
+    "successful_endpoints": 1,
+    "total_metrics_tested": 35,
+    "available_metrics": 2,
+    "successful_fields": 10
+  }
+}

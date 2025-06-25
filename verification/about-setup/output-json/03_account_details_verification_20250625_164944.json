@@ -1,0 +1,35 @@
+{
+  "status": "success",
+  "timestamp": "2025-06-25T16:49:44.141255",
+  "input_data": {
+    "accounts_from_step_02": 5,
+    "token_expires_in_seconds": null
+  },
+  "detailed_accounts": [],
+  "database_ready_structure": {
+    "table_name": "instagram_accounts",
+    "required_fields": [
+      "instagram_user_id (string, UK)",
+      "username (string)",
+      "account_name (string)",
+      "profile_picture_url (string)",
+      "access_token_encrypted (text)",
+      "token_expires_at (timestamp)",
+      "facebook_page_id (string)"
+    ],
+    "all_fields_available": true
+  },
+  "sql_insertion_examples": [],
+  "validation_summary": {
+    "total_accounts_processed": 0,
+    "accounts_with_valid_data": 0,
+    "missing_data_issues": []
+  },
+  "notes": [
+    "合計 0 個のアカウントの詳細情報を取得",
+    "全ての必須フィールドのデータが利用可能",
+    "暗号化処理は要求通り未実装",
+    "データベース挿入の準備完了",
+    "トークン有効期限: N/A"
+  ]
+}

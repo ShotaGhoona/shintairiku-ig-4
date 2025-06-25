@@ -1,0 +1,746 @@
+{
+  "analysis_date": "2025-06-25T11:31:34.711767",
+  "instagram_user_id": "17841455808057230",
+  "insights_api_analysis": {
+    "impressions": {
+      "metric_name": "impressions",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "day_period": "error",
+        "lifetime_no_period": "error",
+        "week_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "reach": {
+      "metric_name": "reach",
+      "available_configurations": [
+        {
+          "configuration": "day_period_basic",
+          "period_type": "day_period",
+          "metric_type": "default",
+          "params": {
+            "metric": "reach",
+            "access_token": "EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD",
+            "since": "2025-06-24",
+            "until": "2025-06-25",
+            "period": "day"
+          },
+          "data_points": 1,
+          "sample_value": 9,
+          "sample_end_time": "2025-06-24T07:00:00+0000",
+          "metric_info": {
+            "name": "reach",
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+            "period": "day"
+          }
+        },
+        {
+          "configuration": "week_period_basic",
+          "period_type": "week_period",
+          "metric_type": "default",
+          "params": {
+            "metric": "reach",
+            "access_token": "EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD",
+            "since": "2025-06-18",
+            "until": "2025-06-25",
+            "period": "week"
+          },
+          "data_points": 7,
+          "sample_value": 9766,
+          "sample_end_time": "2025-06-18T07:00:00+0000",
+          "metric_info": {
+            "name": "reach",
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+            "period": "week"
+          }
+        }
+      ],
+      "successful_calls": 2,
+      "best_configuration": "day_period_basic",
+      "sample_data": {
+        "configuration": "day_period_basic",
+        "period_type": "day_period",
+        "metric_type": "default",
+        "params": {
+          "metric": "reach",
+          "access_token": "EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD",
+          "since": "2025-06-24",
+          "until": "2025-06-25",
+          "period": "day"
+        },
+        "data_points": 1,
+        "sample_value": 9,
+        "sample_end_time": "2025-06-24T07:00:00+0000",
+        "metric_info": {
+          "name": "reach",
+          "title": "リーチ",
+          "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+          "period": "day"
+        }
+      },
+      "data_characteristics": {
+        "max_data_points": 7,
+        "value_type": "int",
+        "has_time_series": true,
+        "requires_metric_type": false,
+        "supported_periods": [
+          "day_period",
+          "week_period"
+        ]
+      },
+      "period_compatibility": {
+        "day_period": true,
+        "lifetime_no_period": "error",
+        "week_period": true
+      },
+      "metric_type_compatibility": {}
+    },
+    "follower_count": {
+      "metric_name": "follower_count",
+      "available_configurations": [
+        {
+          "configuration": "day_period_basic",
+          "period_type": "day_period",
+          "metric_type": "default",
+          "params": {
+            "metric": "follower_count",
+            "access_token": "EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD",
+            "since": "2025-06-24",
+            "until": "2025-06-25",
+            "period": "day"
+          },
+          "data_points": 1,
+          "sample_value": 0,
+          "sample_end_time": "2025-06-24T07:00:00+0000",
+          "metric_info": {
+            "name": "follower_count",
+            "title": "フォロワー数",
+            "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+            "period": "day"
+          }
+        }
+      ],
+      "successful_calls": 1,
+      "best_configuration": "day_period_basic",
+      "sample_data": {
+        "configuration": "day_period_basic",
+        "period_type": "day_period",
+        "metric_type": "default",
+        "params": {
+          "metric": "follower_count",
+          "access_token": "EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD",
+          "since": "2025-06-24",
+          "until": "2025-06-25",
+          "period": "day"
+        },
+        "data_points": 1,
+        "sample_value": 0,
+        "sample_end_time": "2025-06-24T07:00:00+0000",
+        "metric_info": {
+          "name": "follower_count",
+          "title": "フォロワー数",
+          "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+          "period": "day"
+        }
+      },
+      "data_characteristics": {
+        "max_data_points": 1,
+        "value_type": "int",
+        "has_time_series": false,
+        "requires_metric_type": false,
+        "supported_periods": [
+          "day_period"
+        ]
+      },
+      "period_compatibility": {
+        "day_period": true,
+        "lifetime_no_period": "error",
+        "week_period": "incompatible"
+      },
+      "metric_type_compatibility": {}
+    },
+    "website_clicks": {
+      "metric_name": "website_clicks",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "profile_views": {
+      "metric_name": "profile_views",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "online_followers": {
+      "metric_name": "online_followers",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "day_period": "incompatible",
+        "lifetime_no_period": "error",
+        "week_period": "incompatible"
+      },
+      "metric_type_compatibility": {}
+    },
+    "accounts_engaged": {
+      "metric_name": "accounts_engaged",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "total_interactions": {
+      "metric_name": "total_interactions",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "likes": {
+      "metric_name": "likes",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "comments": {
+      "metric_name": "comments",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "shares": {
+      "metric_name": "shares",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "saves": {
+      "metric_name": "saves",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "replies": {
+      "metric_name": "replies",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "engaged_audience_demographics": {
+      "metric_name": "engaged_audience_demographics",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "reached_audience_demographics": {
+      "metric_name": "reached_audience_demographics",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "follower_demographics": {
+      "metric_name": "follower_demographics",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "follows_and_unfollows": {
+      "metric_name": "follows_and_unfollows",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "profile_links_taps": {
+      "metric_name": "profile_links_taps",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "views": {
+      "metric_name": "views",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "threads_likes": {
+      "metric_name": "threads_likes",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "day_period": "error",
+        "lifetime_no_period": "error",
+        "week_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "threads_replies": {
+      "metric_name": "threads_replies",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "day_period": "error",
+        "lifetime_no_period": "error",
+        "week_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "reposts": {
+      "metric_name": "reposts",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "day_period": "error",
+        "lifetime_no_period": "error",
+        "week_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "quotes": {
+      "metric_name": "quotes",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "day_period": "error",
+        "lifetime_no_period": "error",
+        "week_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "threads_followers": {
+      "metric_name": "threads_followers",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "day_period": "error",
+        "lifetime_no_period": "error",
+        "week_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "threads_follower_demographics": {
+      "metric_name": "threads_follower_demographics",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "day_period": "error",
+        "lifetime_no_period": "error",
+        "week_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "content_views": {
+      "metric_name": "content_views",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "lifetime_no_period": "error"
+      },
+      "metric_type_compatibility": {}
+    },
+    "threads_views": {
+      "metric_name": "threads_views",
+      "available_configurations": [],
+      "successful_calls": 0,
+      "best_configuration": null,
+      "sample_data": null,
+      "data_characteristics": {},
+      "period_compatibility": {
+        "day_period": "empty",
+        "lifetime_no_period": "error",
+        "week_period": "empty"
+      },
+      "metric_type_compatibility": {}
+    }
+  },
+  "basic_fields_analysis": {
+    "id": {
+      "status": "success",
+      "value": "17841455808057230",
+      "data_type": "str",
+      "value_length": 17,
+      "is_useful_for_daily_stats": false
+    },
+    "username": {
+      "status": "success",
+      "value": "yamasa_renovation",
+      "data_type": "str",
+      "value_length": 17,
+      "is_useful_for_daily_stats": true
+    },
+    "name": {
+      "status": "success",
+      "value": "ヤマサリノベ | 鹿児島市 / 姶良市 / 日置市 | リノベーション / リフォーム",
+      "data_type": "str",
+      "value_length": 43,
+      "is_useful_for_daily_stats": true
+    },
+    "biography": {
+      "status": "success",
+      "value": "＼もっと、リノベーションを楽しもう✨／\n鹿児島で「安心して任せられる」リノベ専門店\n● 鹿児島県リフォームランキング2024年 No.1  \n● 性能・断熱・使いやすさ・おしゃれもとことん  \n● 戸建て・マンション・木造・RC 実績多数  \n📩 資料請求・見学予約はリンクから！",
+      "data_type": "str",
+      "value_length": 140,
+      "is_useful_for_daily_stats": false
+    },
+    "website": {
+      "status": "success",
+      "value": "https://yamasa-renovation.jp",
+      "data_type": "str",
+      "value_length": 28,
+      "is_useful_for_daily_stats": false
+    },
+    "profile_picture_url": {
+      "status": "success",
+      "value": "https://scontent-nrt1-1.xx.fbcdn.net/v/t51.2885-15/412183010_1206013827022784_7469412081947786505_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7d201b&_nc_ohc=6kb-sesBweUQ7kNvwFmqWpm&_nc_oc=AdnDC6Lvgh_jlXUJzP2FQFqLJInIQwBNtszLaX9M_H4d1z6L9TR2QdRMwN89h3octzQ&_nc_zt=23&_nc_ht=scontent-nrt1-1.xx&edm=AL-3X8kEAAAA&oh=00_AfNL7b91FV-qT3sQb0c4X7wqEDMDy7cjO67J2CQ_XLdRhw&oe=68612C86",
+      "data_type": "str",
+      "value_length": 363,
+      "is_useful_for_daily_stats": false
+    },
+    "account_type": {
+      "status": "error",
+      "error_message": "(#100) Tried accessing nonexisting field (account_type) on node type (IGUser)",
+      "error_code": 100
+    },
+    "media_count": {
+      "status": "success",
+      "value": 411,
+      "data_type": "int",
+      "value_length": 3,
+      "is_useful_for_daily_stats": true
+    },
+    "followers_count": {
+      "status": "success",
+      "value": 455,
+      "data_type": "int",
+      "value_length": 3,
+      "is_useful_for_daily_stats": true
+    },
+    "follows_count": {
+      "status": "success",
+      "value": 17,
+      "data_type": "int",
+      "value_length": 2,
+      "is_useful_for_daily_stats": true
+    },
+    "business_discovery": {
+      "status": "error",
+      "error_message": "(#100) The parameter username is required.",
+      "error_code": 100
+    },
+    "category": {
+      "status": "error",
+      "error_message": "(#100) Tried accessing nonexisting field (category) on node type (IGUser)",
+      "error_code": 100
+    },
+    "contact_info": {
+      "status": "error",
+      "error_message": "(#100) Tried accessing nonexisting field (contact_info) on node type (IGUser)",
+      "error_code": 100
+    },
+    "shopping_product_tag_eligibility": {
+      "status": "error",
+      "error_message": "(#10) Application does not have permission for this action",
+      "error_code": 10
+    },
+    "shopping_review_status": {
+      "status": "error",
+      "error_message": "(#100) You do not have permission to access this field.",
+      "error_code": 100
+    },
+    "ig_id": {
+      "status": "success",
+      "value": 55817844268,
+      "data_type": "int",
+      "value_length": 11,
+      "is_useful_for_daily_stats": false
+    },
+    "is_private": {
+      "status": "error",
+      "error_message": "(#100) Tried accessing nonexisting field (is_private) on node type (IGUser)",
+      "error_code": 100
+    },
+    "is_published": {
+      "status": "success",
+      "value": true,
+      "data_type": "bool",
+      "value_length": 4,
+      "is_useful_for_daily_stats": false
+    },
+    "batch_fetch": {
+      "status": "success",
+      "fields_count": 11,
+      "all_data": {
+        "id": "17841455808057230",
+        "username": "yamasa_renovation",
+        "name": "ヤマサリノベ | 鹿児島市 / 姶良市 / 日置市 | リノベーション / リフォーム",
+        "biography": "＼もっと、リノベーションを楽しもう✨／\n鹿児島で「安心して任せられる」リノベ専門店\n● 鹿児島県リフォームランキング2024年 No.1  \n● 性能・断熱・使いやすさ・おしゃれもとことん  \n● 戸建て・マンション・木造・RC 実績多数  \n📩 資料請求・見学予約はリンクから！",
+        "website": "https://yamasa-renovation.jp",
+        "profile_picture_url": "https://scontent-nrt1-1.xx.fbcdn.net/v/t51.2885-15/412183010_1206013827022784_7469412081947786505_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7d201b&_nc_ohc=6kb-sesBweUQ7kNvwFmqWpm&_nc_oc=AdnDC6Lvgh_jlXUJzP2FQFqLJInIQwBNtszLaX9M_H4d1z6L9TR2QdRMwN89h3octzQ&_nc_zt=23&_nc_ht=scontent-nrt1-1.xx&edm=AL-3X8kEAAAA&oh=00_AfNL7b91FV-qT3sQb0c4X7wqEDMDy7cjO67J2CQ_XLdRhw&oe=68612C86",
+        "media_count": 411,
+        "followers_count": 455,
+        "follows_count": 17,
+        "ig_id": 55817844268,
+        "is_published": true
+      }
+    }
+  },
+  "post_aggregation_analysis": {
+    "status": "success",
+    "daily_aggregation_sample": {
+      "2025-06-20": {
+        "posts_count": 1,
+        "total_likes": 9,
+        "total_comments": 0,
+        "media_types": [
+          "VIDEO"
+        ],
+        "avg_likes_per_post": 9.0,
+        "avg_comments_per_post": 0.0
+      },
+      "2025-05-31": {
+        "posts_count": 3,
+        "total_likes": 52,
+        "total_comments": 0,
+        "media_types": [
+          "CAROUSEL_ALBUM",
+          "VIDEO"
+        ],
+        "avg_likes_per_post": 17.333333333333332,
+        "avg_comments_per_post": 0.0
+      },
+      "2025-05-30": {
+        "posts_count": 1,
+        "total_likes": 15,
+        "total_comments": 0,
+        "media_types": [
+          "VIDEO"
+        ],
+        "avg_likes_per_post": 15.0,
+        "avg_comments_per_post": 0.0
+      },
+      "2025-05-25": {
+        "posts_count": 1,
+        "total_likes": 15,
+        "total_comments": 0,
+        "media_types": [
+          "VIDEO"
+        ],
+        "avg_likes_per_post": 15.0,
+        "avg_comments_per_post": 0.0
+      },
+      "2025-05-24": {
+        "posts_count": 1,
+        "total_likes": 16,
+        "total_comments": 0,
+        "media_types": [
+          "VIDEO"
+        ],
+        "avg_likes_per_post": 16.0,
+        "avg_comments_per_post": 0.0
+      },
+      "2025-05-23": {
+        "posts_count": 1,
+        "total_likes": 17,
+        "total_comments": 0,
+        "media_types": [
+          "VIDEO"
+        ],
+        "avg_likes_per_post": 17.0,
+        "avg_comments_per_post": 0.0
+      },
+      "2025-05-17": {
+        "posts_count": 1,
+        "total_likes": 17,
+        "total_comments": 0,
+        "media_types": [
+          "CAROUSEL_ALBUM"
+        ],
+        "avg_likes_per_post": 17.0,
+        "avg_comments_per_post": 0.0
+      }
+    },
+    "potential_metrics": {
+      "daily_posts_count": "日別投稿数",
+      "daily_total_likes": "日別いいね合計",
+      "daily_total_comments": "日別コメント合計",
+      "daily_avg_likes_per_post": "日別投稿あたり平均いいね数",
+      "daily_avg_comments_per_post": "日別投稿あたり平均コメント数",
+      "daily_media_type_distribution": "日別メディアタイプ分布"
+    },
+    "data_availability": {
+      "posts_analyzed": 50,
+      "date_range_days": 42,
+      "can_create_time_series": true
+    }
+  },
+  "comprehensive_summary": {
+    "insights_metrics": {
+      "フォロワー関連": [
+        {
+          "metric": "follower_count",
+          "max_data_points": 1,
+          "best_configuration": "day_period_basic",
+          "requires_metric_type": false,
+          "configurations_count": 1
+        }
+      ],
+      "リーチ・視聴関連": [
+        {
+          "metric": "reach",
+          "max_data_points": 7,
+          "best_configuration": "day_period_basic",
+          "requires_metric_type": false,
+          "configurations_count": 2
+        }
+      ]
+    },
+    "basic_fields": [
+      "id",
+      "username",
+      "name",
+      "biography",
+      "website",
+      "profile_picture_url",
+      "media_count",
+      "followers_count",
+      "follows_count",
+      "ig_id",
+      "is_published"
+    ],
+    "aggregation_metrics": {
+      "daily_posts_count": "日別投稿数",
+      "daily_total_likes": "日別いいね合計",
+      "daily_total_comments": "日別コメント合計",
+      "daily_avg_likes_per_post": "日別投稿あたり平均いいね数",
+      "daily_avg_comments_per_post": "日別投稿あたり平均コメント数",
+      "daily_media_type_distribution": "日別メディアタイプ分布"
+    },
+    "total_available_elements": 19,
+    "implementation_readiness": "medium"
+  },
+  "metadata": {
+    "total_insights_tested": 27,
+    "available_insights": 2,
+    "total_fields_tested": 18,
+    "available_fields": 12,
+    "aggregation_feasible": true
+  }
+}

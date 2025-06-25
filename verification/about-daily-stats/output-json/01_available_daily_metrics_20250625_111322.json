@@ -1,0 +1,65 @@
+{
+  "exploration_date": "2025-06-25T11:13:22.667774",
+  "available_metrics": {
+    "follower_count": {
+      "periods_tested": {
+        "day": {
+          "status": "success",
+          "value": 0,
+          "period_info": "day",
+          "title": "フォロワー数",
+          "description": "このプロフィールをフォロー中のユニークアカウントの合計数です"
+        },
+        "week": {
+          "status": "error",
+          "error_message": "(#100) The following periods (week) are incompatible with the metric (follower_count)"
+        },
+        "days_28": {
+          "status": "success",
+          "value": 0,
+          "period_info": "day",
+          "title": "フォロワー数",
+          "description": "このプロフィールをフォロー中のユニークアカウントの合計数です"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": true,
+      "best_period": "day"
+    },
+    "reach": {
+      "periods_tested": {
+        "day": {
+          "status": "success",
+          "value": 8,
+          "period_info": "day",
+          "title": "リーチ",
+          "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+        },
+        "week": {
+          "status": "success",
+          "value": 9766,
+          "period_info": "week",
+          "title": "リーチ",
+          "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+        },
+        "days_28": {
+          "status": "success",
+          "value": 371,
+          "period_info": "day",
+          "title": "リーチ",
+          "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required"
+        }
+      },
+      "available": true,
+      "best_period": "day"
+    }
+  },
+  "count": 2
+}

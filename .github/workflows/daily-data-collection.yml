@@ -1,0 +1,51 @@
+name: Daily Instagram Data Collection
+
+on:
+  schedule:
+    - cron: '0 21 * * *'  # 毎日 06:00 JST (21:00 UTC)
+  workflow_dispatch:       # 手動実行可能
+    inputs:
+      target_date:
+        description: 'Target date for data collection (YYYY-MM-DD)'
+        required: false
+        default: ''
+
+jobs:
+  collect-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        cd backend
+        pip install -r requirements.txt
+        
+    - name: Run daily data collection
+      env:
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        INSTAGRAM_ACCESS_TOKENS: ${{ secrets.INSTAGRAM_ACCESS_TOKENS }}
+        FACEBOOK_APP_ID: ${{ secrets.FACEBOOK_APP_ID }}
+        FACEBOOK_APP_SECRET: ${{ secrets.FACEBOOK_APP_SECRET }}
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        ENCRYPTION_KEY: ${{ secrets.ENCRYPTION_KEY }}
+        TARGET_DATE: ${{ github.event.inputs.target_date }}
+      run: |
+        cd backend
+        python scripts/collect_daily_data.py
+        
+    - name: Notify on failure
+      if: failure()
+      uses: 8398a7/action-slack@v3
+      with:
+        status: failure
+        fields: repo,message,commit,author,action,eventName,ref,workflow
+        webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+        text: "❌ Daily Instagram data collection failed"

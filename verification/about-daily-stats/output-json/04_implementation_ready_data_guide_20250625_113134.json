@@ -1,0 +1,32 @@
+{
+  "analysis_date": "2025-06-25T11:31:34.714121",
+  "available_data_elements": 19,
+  "implementation_readiness": "medium",
+  "recommended_daily_collection": {
+    "insights_api": [
+      "reach",
+      "follower_count"
+    ],
+    "basic_fields": [
+      "username",
+      "name",
+      "media_count",
+      "followers_count",
+      "follows_count"
+    ],
+    "post_aggregation": [
+      "daily_posts_count",
+      "daily_total_likes",
+      "daily_total_comments",
+      "daily_avg_likes_per_post",
+      "daily_avg_comments_per_post",
+      "daily_media_type_distribution"
+    ]
+  },
+  "api_call_strategy": {
+    "insights_frequency": "daily",
+    "basic_fields_frequency": "daily",
+    "post_aggregation_frequency": "daily",
+    "recommended_collection_time": "early_morning_jst"
+  }
+}

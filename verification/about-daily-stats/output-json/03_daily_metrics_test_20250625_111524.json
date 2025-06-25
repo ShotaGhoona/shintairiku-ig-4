@@ -1,0 +1,571 @@
+{
+  "test_date": "2025-06-25T11:15:24.441766",
+  "instagram_user_id": "17841455808057230",
+  "daily_stats_requirements_test": {
+    "followers_count": {
+      "requirement_name": "followers_count",
+      "db_column": "followers_count",
+      "description": "フォロワー数",
+      "required": true,
+      "api_candidates": [
+        "follower_count",
+        "followers_count",
+        "total_followers"
+      ],
+      "successful_api": "follower_count",
+      "api_test_results": {
+        "follower_count": {
+          "status": "success",
+          "value": 0,
+          "end_time": "2025-06-24T07:00:00+0000",
+          "metric_info": {
+            "name": "follower_count",
+            "title": "フォロワー数",
+            "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+            "period": "day"
+          }
+        },
+        "followers_count": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "total_followers": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "recommended_implementation": {
+        "api_metric": "follower_count",
+        "sample_value": 0,
+        "data_validation": {
+          "is_numeric": true,
+          "is_positive": true,
+          "value_type": "int"
+        }
+      }
+    },
+    "following_count": {
+      "requirement_name": "following_count",
+      "db_column": "following_count",
+      "description": "フォロー数",
+      "required": true,
+      "api_candidates": [
+        "following_count",
+        "follows_count",
+        "total_following"
+      ],
+      "successful_api": null,
+      "api_test_results": {
+        "following_count": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "follows_count": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "total_following": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "recommended_implementation": null
+    },
+    "new_followers": {
+      "requirement_name": "new_followers",
+      "db_column": "new_followers",
+      "description": "新規フォロワー数",
+      "required": false,
+      "api_candidates": [
+        "new_followers",
+        "follower_growth",
+        "followers_gained"
+      ],
+      "successful_api": null,
+      "api_test_results": {
+        "new_followers": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "follower_growth": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        },
+        "followers_gained": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "recommended_implementation": null
+    },
+    "profile_views": {
+      "requirement_name": "profile_views",
+      "db_column": "profile_views",
+      "description": "プロフィール閲覧数",
+      "required": true,
+      "api_candidates": [
+        "profile_views",
+        "profile_visits"
+      ],
+      "successful_api": null,
+      "api_test_results": {
+        "profile_views": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+        },
+        "profile_visits": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "recommended_implementation": null
+    },
+    "website_clicks": {
+      "requirement_name": "website_clicks",
+      "db_column": "website_clicks",
+      "description": "ウェブサイトクリック数",
+      "required": false,
+      "api_candidates": [
+        "website_clicks",
+        "website_taps"
+      ],
+      "successful_api": null,
+      "api_test_results": {
+        "website_clicks": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (website_clicks) should be specified with parameter metric_type=total_value"
+        },
+        "website_taps": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "recommended_implementation": null
+    },
+    "reach": {
+      "requirement_name": "reach",
+      "db_column": "reach",
+      "description": "リーチ数",
+      "required": false,
+      "api_candidates": [
+        "reach",
+        "accounts_reached"
+      ],
+      "successful_api": "reach",
+      "api_test_results": {
+        "reach": {
+          "status": "success",
+          "value": 8,
+          "end_time": "2025-06-24T07:00:00+0000",
+          "metric_info": {
+            "name": "reach",
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+            "period": "day"
+          }
+        },
+        "accounts_reached": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+        }
+      },
+      "recommended_implementation": {
+        "api_metric": "reach",
+        "sample_value": 8,
+        "data_validation": {
+          "is_numeric": true,
+          "is_positive": true,
+          "value_type": "int"
+        }
+      }
+    }
+  },
+  "time_range_data_test": {
+    "reach": {
+      "last_1_day": {
+        "status": "success",
+        "analysis": {
+          "actual_data_points": 1,
+          "expected_data_points": 1,
+          "data_completeness": 1.0,
+          "date_range_analysis": {
+            "first_date": "2025-06-24T07:00:00+0000",
+            "last_date": "2025-06-24T07:00:00+0000"
+          },
+          "sample_values": [
+            {
+              "date": "2025-06-24T07:00:00+0000",
+              "value": 8
+            }
+          ],
+          "value_statistics": {
+            "min": 8,
+            "max": 8,
+            "total": 8
+          }
+        }
+      },
+      "last_3_days": {
+        "status": "success",
+        "analysis": {
+          "actual_data_points": 3,
+          "expected_data_points": 3,
+          "data_completeness": 1.0,
+          "date_range_analysis": {
+            "first_date": "2025-06-22T07:00:00+0000",
+            "last_date": "2025-06-24T07:00:00+0000"
+          },
+          "sample_values": [
+            {
+              "date": "2025-06-22T07:00:00+0000",
+              "value": 44
+            },
+            {
+              "date": "2025-06-23T07:00:00+0000",
+              "value": 50
+            },
+            {
+              "date": "2025-06-24T07:00:00+0000",
+              "value": 8
+            }
+          ],
+          "value_statistics": {
+            "min": 8,
+            "max": 50,
+            "total": 102
+          }
+        }
+      },
+      "last_7_days": {
+        "status": "success",
+        "analysis": {
+          "actual_data_points": 7,
+          "expected_data_points": 7,
+          "data_completeness": 1.0,
+          "date_range_analysis": {
+            "first_date": "2025-06-18T07:00:00+0000",
+            "last_date": "2025-06-24T07:00:00+0000"
+          },
+          "sample_values": [
+            {
+              "date": "2025-06-18T07:00:00+0000",
+              "value": 3996
+            },
+            {
+              "date": "2025-06-19T07:00:00+0000",
+              "value": 11186
+            },
+            {
+              "date": "2025-06-20T07:00:00+0000",
+              "value": 7295
+            },
+            {
+              "date": "2025-06-21T07:00:00+0000",
+              "value": 6197
+            },
+            {
+              "date": "2025-06-22T07:00:00+0000",
+              "value": 44
+            }
+          ],
+          "value_statistics": {
+            "min": 8,
+            "max": 11186,
+            "total": 28776
+          }
+        }
+      },
+      "last_14_days": {
+        "status": "success",
+        "analysis": {
+          "actual_data_points": 14,
+          "expected_data_points": 14,
+          "data_completeness": 1.0,
+          "date_range_analysis": {
+            "first_date": "2025-06-11T07:00:00+0000",
+            "last_date": "2025-06-24T07:00:00+0000"
+          },
+          "sample_values": [
+            {
+              "date": "2025-06-11T07:00:00+0000",
+              "value": 966
+            },
+            {
+              "date": "2025-06-12T07:00:00+0000",
+              "value": 864
+            },
+            {
+              "date": "2025-06-13T07:00:00+0000",
+              "value": 1796
+            },
+            {
+              "date": "2025-06-14T07:00:00+0000",
+              "value": 1550
+            },
+            {
+              "date": "2025-06-15T07:00:00+0000",
+              "value": 876
+            }
+          ],
+          "value_statistics": {
+            "min": 8,
+            "max": 11186,
+            "total": 37986
+          }
+        }
+      },
+      "last_30_days": {
+        "status": "success",
+        "analysis": {
+          "actual_data_points": 30,
+          "expected_data_points": 30,
+          "data_completeness": 1.0,
+          "date_range_analysis": {
+            "first_date": "2025-05-26T07:00:00+0000",
+            "last_date": "2025-06-24T07:00:00+0000"
+          },
+          "sample_values": [
+            {
+              "date": "2025-05-26T07:00:00+0000",
+              "value": 692
+            },
+            {
+              "date": "2025-05-27T07:00:00+0000",
+              "value": 384
+            },
+            {
+              "date": "2025-05-28T07:00:00+0000",
+              "value": 371
+            },
+            {
+              "date": "2025-05-29T07:00:00+0000",
+              "value": 435
+            },
+            {
+              "date": "2025-05-30T07:00:00+0000",
+              "value": 925
+            }
+          ],
+          "value_statistics": {
+            "min": 8,
+            "max": 11186,
+            "total": 65945
+          }
+        }
+      }
+    },
+    "profile_views": {
+      "last_1_day": {
+        "status": "error",
+        "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+      },
+      "last_3_days": {
+        "status": "error",
+        "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+      },
+      "last_7_days": {
+        "status": "error",
+        "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+      },
+      "last_14_days": {
+        "status": "error",
+        "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+      },
+      "last_30_days": {
+        "status": "error",
+        "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+      }
+    }
+  },
+  "basic_account_fields_test": {
+    "id": {
+      "status": "success",
+      "value": "17841455808057230",
+      "data_type": "str",
+      "daily_stats_relevance": {
+        "followers_count": false,
+        "following_count": false,
+        "can_substitute_insights": false
+      }
+    },
+    "username": {
+      "status": "success",
+      "value": "yamasa_renovation",
+      "data_type": "str",
+      "daily_stats_relevance": {
+        "followers_count": false,
+        "following_count": false,
+        "can_substitute_insights": false
+      }
+    },
+    "name": {
+      "status": "success",
+      "value": "ヤマサリノベ | 鹿児島市 / 姶良市 / 日置市 | リノベーション / リフォーム",
+      "data_type": "str",
+      "daily_stats_relevance": {
+        "followers_count": false,
+        "following_count": false,
+        "can_substitute_insights": false
+      }
+    },
+    "account_type": {
+      "status": "error",
+      "error_message": "(#100) Tried accessing nonexisting field (account_type) on node type (IGUser)"
+    },
+    "media_count": {
+      "status": "success",
+      "value": 411,
+      "data_type": "int",
+      "daily_stats_relevance": {
+        "followers_count": false,
+        "following_count": false,
+        "can_substitute_insights": false
+      }
+    },
+    "followers_count": {
+      "status": "success",
+      "value": 455,
+      "data_type": "int",
+      "daily_stats_relevance": {
+        "followers_count": true,
+        "following_count": false,
+        "can_substitute_insights": true
+      }
+    },
+    "follows_count": {
+      "status": "success",
+      "value": 17,
+      "data_type": "int",
+      "daily_stats_relevance": {
+        "followers_count": false,
+        "following_count": true,
+        "can_substitute_insights": true
+      }
+    },
+    "profile_picture_url": {
+      "status": "success",
+      "value": "https://scontent-nrt1-1.xx.fbcdn.net/v/t51.2885-15/412183010_1206013827022784_7469412081947786505_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7d201b&_nc_ohc=6kb-sesBweUQ7kNvwFmqWpm&_nc_oc=AdnDC6Lvgh_jlXUJzP2FQFqLJInIQwBNtszLaX9M_H4d1z6L9TR2QdRMwN89h3octzQ&_nc_zt=23&_nc_ht=scontent-nrt1-1.xx&edm=AL-3X8kEAAAA&oh=00_AfNL7b91FV-qT3sQb0c4X7wqEDMDy7cjO67J2CQ_XLdRhw&oe=68612C86",
+      "data_type": "str",
+      "daily_stats_relevance": {
+        "followers_count": false,
+        "following_count": false,
+        "can_substitute_insights": false
+      }
+    },
+    "biography": {
+      "status": "success",
+      "value": "＼もっと、リノベーションを楽しもう✨／\n鹿児島で「安心して任せられる」リノベ専門店\n● 鹿児島県リフォームランキング2024年 No.1  \n● 性能・断熱・使いやすさ・おしゃれもとことん  \n● 戸建て・マンション・木造・RC 実績多数  \n📩 資料請求・見学予約はリンクから！",
+      "data_type": "str",
+      "daily_stats_relevance": {
+        "followers_count": false,
+        "following_count": false,
+        "can_substitute_insights": false
+      }
+    },
+    "website": {
+      "status": "success",
+      "value": "https://yamasa-renovation.jp",
+      "data_type": "str",
+      "daily_stats_relevance": {
+        "followers_count": false,
+        "following_count": false,
+        "can_substitute_insights": false
+      }
+    },
+    "combined_fetch": {
+      "status": "success",
+      "all_fields": {
+        "id": "17841455808057230",
+        "username": "yamasa_renovation",
+        "name": "ヤマサリノベ | 鹿児島市 / 姶良市 / 日置市 | リノベーション / リフォーム",
+        "media_count": 411,
+        "followers_count": 455,
+        "follows_count": 17,
+        "profile_picture_url": "https://scontent-nrt1-1.xx.fbcdn.net/v/t51.2885-15/412183010_1206013827022784_7469412081947786505_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7d201b&_nc_ohc=6kb-sesBweUQ7kNvwFmqWpm&_nc_oc=AdnDC6Lvgh_jlXUJzP2FQFqLJInIQwBNtszLaX9M_H4d1z6L9TR2QdRMwN89h3octzQ&_nc_zt=23&_nc_ht=scontent-nrt1-1.xx&edm=AL-3X8kEAAAA&oh=00_AfNL7b91FV-qT3sQb0c4X7wqEDMDy7cjO67J2CQ_XLdRhw&oe=68612C86",
+        "biography": "＼もっと、リノベーションを楽しもう✨／\n鹿児島で「安心して任せられる」リノベ専門店\n● 鹿児島県リフォームランキング2024年 No.1  \n● 性能・断熱・使いやすさ・おしゃれもとことん  \n● 戸建て・マンション・木造・RC 実績多数  \n📩 資料請求・見学予約はリンクから！",
+        "website": "https://yamasa-renovation.jp"
+      },
+      "daily_stats_mapping": {
+        "followers_count": 455,
+        "following_count": 17
+      }
+    }
+  },
+  "implementation_recommendations": {
+    "implementation_feasibility": "partially_feasible",
+    "required_fields_coverage": 0.6666666666666666,
+    "field_implementations": {
+      "followers_count": {
+        "db_column": "followers_count",
+        "required": true,
+        "implementation_method": "insights_api",
+        "api_source": "follower_count",
+        "fallback_options": []
+      },
+      "following_count": {
+        "db_column": "following_count",
+        "required": true,
+        "implementation_method": "basic_field",
+        "api_source": "follows_count",
+        "fallback_options": [
+          "basic_account_field"
+        ]
+      },
+      "new_followers": {
+        "db_column": "new_followers",
+        "required": false,
+        "implementation_method": "unavailable",
+        "api_source": null,
+        "fallback_options": []
+      },
+      "profile_views": {
+        "db_column": "profile_views",
+        "required": true,
+        "implementation_method": "unavailable",
+        "api_source": null,
+        "fallback_options": []
+      },
+      "website_clicks": {
+        "db_column": "website_clicks",
+        "required": false,
+        "implementation_method": "unavailable",
+        "api_source": null,
+        "fallback_options": []
+      },
+      "reach": {
+        "db_column": "reach",
+        "required": false,
+        "implementation_method": "insights_api",
+        "api_source": "reach",
+        "fallback_options": []
+      }
+    },
+    "alternative_approaches": [],
+    "data_collection_strategy": {
+      "insights_api": {
+        "metrics": [
+          "follower_count",
+          "reach"
+        ],
+        "recommended_frequency": "daily",
+        "recommended_time": "early_morning",
+        "batch_size": 2
+      },
+      "basic_fields": {
+        "fields": [
+          "followers_count",
+          "follows_count"
+        ],
+        "recommended_frequency": "daily",
+        "can_substitute_insights": true
+      }
+    },
+    "limitations": []
+  },
+  "summary": {
+    "total_requirements_tested": 6,
+    "implementable_requirements": 3,
+    "required_fields_coverage": 0.6666666666666666,
+    "implementation_feasibility": "partially_feasible"
+  }
+}

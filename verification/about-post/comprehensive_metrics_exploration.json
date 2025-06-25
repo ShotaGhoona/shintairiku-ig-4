@@ -1,0 +1,83 @@
+{
+  "exploration_date": "2025-06-25T09:43:57.711844",
+  "total_posts_tested": 10,
+  "results_by_media_type": {
+    "VIDEO": {
+      "available_metrics": [
+        "saved",
+        "reach",
+        "views",
+        "shares",
+        "total_interactions",
+        "comments",
+        "ig_reels_avg_watch_time",
+        "likes",
+        "ig_reels_video_view_total_time"
+      ],
+      "sample_values": {
+        "likes": 20,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "reach": 349,
+        "views": 487,
+        "ig_reels_video_view_total_time": 3432596,
+        "ig_reels_avg_watch_time": 8846,
+        "total_interactions": 21
+      },
+      "error_messages": []
+    },
+    "CAROUSEL_ALBUM": {
+      "available_metrics": [
+        "profile_visits",
+        "reach",
+        "views",
+        "shares",
+        "total_interactions",
+        "comments",
+        "follows",
+        "saved",
+        "likes",
+        "profile_activity"
+      ],
+      "sample_values": {
+        "likes": 17,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "reach": 218,
+        "views": 331,
+        "total_interactions": 18,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0
+      },
+      "error_messages": []
+    }
+  },
+  "all_available_metrics": [
+    "profile_visits",
+    "reach",
+    "views",
+    "total_interactions",
+    "shares",
+    "ig_reels_avg_watch_time",
+    "comments",
+    "follows",
+    "saved",
+    "likes",
+    "ig_reels_video_view_total_time",
+    "profile_activity"
+  ],
+  "important_metrics_status": {
+    "likes": true,
+    "comments": true,
+    "saved": true,
+    "saves": false,
+    "shares": true,
+    "views": true,
+    "reach": true,
+    "impressions": false,
+    "total_interactions": true
+  }
+}

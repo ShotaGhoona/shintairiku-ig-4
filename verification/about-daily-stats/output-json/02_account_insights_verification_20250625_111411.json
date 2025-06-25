@@ -1,0 +1,1999 @@
+{
+  "verification_date": "2025-06-25T11:14:11.543075",
+  "instagram_user_id": "17841455808057230",
+  "insights_verification": {
+    "follower_count": {
+      "metric_name": "follower_count",
+      "available": true,
+      "period_results": {
+        "yesterday": {
+          "status": "success",
+          "value": 0,
+          "end_time": "2025-06-24T07:00:00+0000",
+          "metric_info": {
+            "name": "follower_count",
+            "period": "day",
+            "title": "フォロワー数",
+            "description": "このプロフィールをフォロー中のユニークアカウントの合計数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "follower_count",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "フォロワー数",
+                "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+                "id": "17841455808057230/insights/follower_count/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750636799&until=1750723199&metric=follower_count&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1750896001&metric=follower_count&period=day"
+            }
+          }
+        },
+        "last_7_days": {
+          "status": "success",
+          "value": 2,
+          "end_time": "2025-06-18T07:00:00+0000",
+          "metric_info": {
+            "name": "follower_count",
+            "period": "day",
+            "title": "フォロワー数",
+            "description": "このプロフィールをフォロー中のユニークアカウントの合計数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "follower_count",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-18T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-19T07:00:00+0000"
+                  },
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-20T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-21T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-22T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-23T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "フォロワー数",
+                "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+                "id": "17841455808057230/insights/follower_count/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1749599999&until=1750204799&metric=follower_count&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1751414401&metric=follower_count&period=day"
+            }
+          }
+        },
+        "last_30_days": {
+          "status": "success",
+          "value": 1,
+          "end_time": "2025-05-26T07:00:00+0000",
+          "metric_info": {
+            "name": "follower_count",
+            "period": "day",
+            "title": "フォロワー数",
+            "description": "このプロフィールをフォロー中のユニークアカウントの合計数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "follower_count",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 1,
+                    "end_time": "2025-05-26T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-05-27T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-05-28T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-05-29T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-05-30T07:00:00+0000"
+                  },
+                  {
+                    "value": 4,
+                    "end_time": "2025-05-31T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-01T07:00:00+0000"
+                  },
+                  {
+                    "value": 5,
+                    "end_time": "2025-06-02T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-03T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-04T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-05T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-06T07:00:00+0000"
+                  },
+                  {
+                    "value": 5,
+                    "end_time": "2025-06-07T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-08T07:00:00+0000"
+                  },
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-09T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-10T07:00:00+0000"
+                  },
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-11T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-12T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-13T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-14T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-15T07:00:00+0000"
+                  },
+                  {
+                    "value": 1,
+                    "end_time": "2025-06-16T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-17T07:00:00+0000"
+                  },
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-18T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-19T07:00:00+0000"
+                  },
+                  {
+                    "value": 2,
+                    "end_time": "2025-06-20T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-21T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-22T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-23T07:00:00+0000"
+                  },
+                  {
+                    "value": 0,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "フォロワー数",
+                "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+                "id": "17841455808057230/insights/follower_count/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1745625599&until=1748217599&metric=follower_count&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1753401601&metric=follower_count&period=day"
+            }
+          }
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": "yesterday",
+      "sample_data": 0,
+      "data_structure": {
+        "name": "follower_count",
+        "period": "day",
+        "values": [
+          {
+            "value": 0,
+            "end_time": "2025-06-24T07:00:00+0000"
+          }
+        ],
+        "title": "フォロワー数",
+        "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+        "id": "17841455808057230/insights/follower_count/day"
+      }
+    },
+    "followers_count": {
+      "metric_name": "followers_count",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "total_followers": {
+      "metric_name": "total_followers",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "reach": {
+      "metric_name": "reach",
+      "available": true,
+      "period_results": {
+        "yesterday": {
+          "status": "success",
+          "value": 8,
+          "end_time": "2025-06-24T07:00:00+0000",
+          "metric_info": {
+            "name": "reach",
+            "period": "day",
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "reach",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 8,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "リーチ",
+                "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+                "id": "17841455808057230/insights/reach/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750636799&until=1750723199&metric=reach&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1750896001&metric=reach&period=day"
+            }
+          }
+        },
+        "last_7_days": {
+          "status": "success",
+          "value": 3996,
+          "end_time": "2025-06-18T07:00:00+0000",
+          "metric_info": {
+            "name": "reach",
+            "period": "day",
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "reach",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 3996,
+                    "end_time": "2025-06-18T07:00:00+0000"
+                  },
+                  {
+                    "value": 11186,
+                    "end_time": "2025-06-19T07:00:00+0000"
+                  },
+                  {
+                    "value": 7295,
+                    "end_time": "2025-06-20T07:00:00+0000"
+                  },
+                  {
+                    "value": 6197,
+                    "end_time": "2025-06-21T07:00:00+0000"
+                  },
+                  {
+                    "value": 44,
+                    "end_time": "2025-06-22T07:00:00+0000"
+                  },
+                  {
+                    "value": 50,
+                    "end_time": "2025-06-23T07:00:00+0000"
+                  },
+                  {
+                    "value": 8,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "リーチ",
+                "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+                "id": "17841455808057230/insights/reach/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1749599999&until=1750204799&metric=reach&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1751414401&metric=reach&period=day"
+            }
+          }
+        },
+        "last_30_days": {
+          "status": "success",
+          "value": 692,
+          "end_time": "2025-05-26T07:00:00+0000",
+          "metric_info": {
+            "name": "reach",
+            "period": "day",
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です"
+          },
+          "full_data": {
+            "data": [
+              {
+                "name": "reach",
+                "period": "day",
+                "values": [
+                  {
+                    "value": 692,
+                    "end_time": "2025-05-26T07:00:00+0000"
+                  },
+                  {
+                    "value": 384,
+                    "end_time": "2025-05-27T07:00:00+0000"
+                  },
+                  {
+                    "value": 371,
+                    "end_time": "2025-05-28T07:00:00+0000"
+                  },
+                  {
+                    "value": 435,
+                    "end_time": "2025-05-29T07:00:00+0000"
+                  },
+                  {
+                    "value": 925,
+                    "end_time": "2025-05-30T07:00:00+0000"
+                  },
+                  {
+                    "value": 3757,
+                    "end_time": "2025-05-31T07:00:00+0000"
+                  },
+                  {
+                    "value": 3230,
+                    "end_time": "2025-06-01T07:00:00+0000"
+                  },
+                  {
+                    "value": 4068,
+                    "end_time": "2025-06-02T07:00:00+0000"
+                  },
+                  {
+                    "value": 3036,
+                    "end_time": "2025-06-03T07:00:00+0000"
+                  },
+                  {
+                    "value": 2090,
+                    "end_time": "2025-06-04T07:00:00+0000"
+                  },
+                  {
+                    "value": 2181,
+                    "end_time": "2025-06-05T07:00:00+0000"
+                  },
+                  {
+                    "value": 1948,
+                    "end_time": "2025-06-06T07:00:00+0000"
+                  },
+                  {
+                    "value": 1522,
+                    "end_time": "2025-06-07T07:00:00+0000"
+                  },
+                  {
+                    "value": 1056,
+                    "end_time": "2025-06-08T07:00:00+0000"
+                  },
+                  {
+                    "value": 1066,
+                    "end_time": "2025-06-09T07:00:00+0000"
+                  },
+                  {
+                    "value": 1198,
+                    "end_time": "2025-06-10T07:00:00+0000"
+                  },
+                  {
+                    "value": 966,
+                    "end_time": "2025-06-11T07:00:00+0000"
+                  },
+                  {
+                    "value": 864,
+                    "end_time": "2025-06-12T07:00:00+0000"
+                  },
+                  {
+                    "value": 1796,
+                    "end_time": "2025-06-13T07:00:00+0000"
+                  },
+                  {
+                    "value": 1550,
+                    "end_time": "2025-06-14T07:00:00+0000"
+                  },
+                  {
+                    "value": 876,
+                    "end_time": "2025-06-15T07:00:00+0000"
+                  },
+                  {
+                    "value": 1485,
+                    "end_time": "2025-06-16T07:00:00+0000"
+                  },
+                  {
+                    "value": 1673,
+                    "end_time": "2025-06-17T07:00:00+0000"
+                  },
+                  {
+                    "value": 3996,
+                    "end_time": "2025-06-18T07:00:00+0000"
+                  },
+                  {
+                    "value": 11186,
+                    "end_time": "2025-06-19T07:00:00+0000"
+                  },
+                  {
+                    "value": 7295,
+                    "end_time": "2025-06-20T07:00:00+0000"
+                  },
+                  {
+                    "value": 6197,
+                    "end_time": "2025-06-21T07:00:00+0000"
+                  },
+                  {
+                    "value": 44,
+                    "end_time": "2025-06-22T07:00:00+0000"
+                  },
+                  {
+                    "value": 50,
+                    "end_time": "2025-06-23T07:00:00+0000"
+                  },
+                  {
+                    "value": 8,
+                    "end_time": "2025-06-24T07:00:00+0000"
+                  }
+                ],
+                "title": "リーチ",
+                "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+                "id": "17841455808057230/insights/reach/day"
+              }
+            ],
+            "paging": {
+              "previous": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1745625599&until=1748217599&metric=reach&period=day",
+              "next": "https://graph.facebook.com/v23.0/17841455808057230/insights?access_token=EAARrfZCwPTGUBO1rcSMEAEXT6BZA4A8ehn20WxcfQrmg661d96L5PX2lxfzRUCL26T3Vab8ioi0cPbDuuqZCsZBYQ7S1ny1Xm8dFKIoHQlbypJCvgi7erfajPCwfWR9aZBRaQMVNDr6RDfK6er3B7cAdTabtJyLPA5J0VxofcOaC7PyT7aDy2lGMDHVeJVY6ndcMZD&since=1750809601&until=1753401601&metric=reach&period=day"
+            }
+          }
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": "yesterday",
+      "sample_data": 8,
+      "data_structure": {
+        "name": "reach",
+        "period": "day",
+        "values": [
+          {
+            "value": 8,
+            "end_time": "2025-06-24T07:00:00+0000"
+          }
+        ],
+        "title": "リーチ",
+        "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+        "id": "17841455808057230/insights/reach/day"
+      }
+    },
+    "impressions": {
+      "metric_name": "impressions",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) Starting from version 22 and above, the impressions metric is no longer supported for the queried user. Please refer to the documentation at https://developers.facebook.com/docs/instagram-api/reference/ig-user/insights for a list of supported metrics.",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) Starting from version 22 and above, the impressions metric is no longer supported for the queried user. Please refer to the documentation at https://developers.facebook.com/docs/instagram-api/reference/ig-user/insights for a list of supported metrics.",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) Starting from version 22 and above, the impressions metric is no longer supported for the queried user. Please refer to the documentation at https://developers.facebook.com/docs/instagram-api/reference/ig-user/insights for a list of supported metrics.",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "accounts_engaged": {
+      "metric_name": "accounts_engaged",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (accounts_engaged) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (accounts_engaged) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (accounts_engaged) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "accounts_reached": {
+      "metric_name": "accounts_reached",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "profile_views": {
+      "metric_name": "profile_views",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "website_clicks": {
+      "metric_name": "website_clicks",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (website_clicks) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (website_clicks) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (website_clicks) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "get_directions_clicks": {
+      "metric_name": "get_directions_clicks",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "phone_number_clicks": {
+      "metric_name": "phone_number_clicks",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "text_message_clicks": {
+      "metric_name": "text_message_clicks",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "email_contacts": {
+      "metric_name": "email_contacts",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "total_interactions": {
+      "metric_name": "total_interactions",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (total_interactions) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (total_interactions) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (total_interactions) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "likes": {
+      "metric_name": "likes",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (likes) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (likes) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (likes) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "comments": {
+      "metric_name": "comments",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (comments) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (comments) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (comments) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "shares": {
+      "metric_name": "shares",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (shares) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (shares) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (shares) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "saves": {
+      "metric_name": "saves",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (saves) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (saves) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) The following metrics (saves) should be specified with parameter metric_type=total_value",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "saved": {
+      "metric_name": "saved",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "online_followers": {
+      "metric_name": "online_followers",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) The following periods (day) are incompatible with the metric (online_followers)",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) The following periods (day) are incompatible with the metric (online_followers)",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) The following periods (day) are incompatible with the metric (online_followers)",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) For field 'insights': The parameter period is required",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "audience_locale": {
+      "metric_name": "audience_locale",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "audience_country": {
+      "metric_name": "audience_country",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "audience_city": {
+      "metric_name": "audience_city",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "audience_gender_age": {
+      "metric_name": "audience_gender_age",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "video_views": {
+      "metric_name": "video_views",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "story_exits": {
+      "metric_name": "story_exits",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "story_replies": {
+      "metric_name": "story_replies",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "story_taps_forward": {
+      "metric_name": "story_taps_forward",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    },
+    "story_taps_back": {
+      "metric_name": "story_taps_back",
+      "available": false,
+      "period_results": {
+        "yesterday": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_7_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "last_30_days": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        },
+        "lifetime": {
+          "status": "error",
+          "error_message": "(#100) metric[0] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views",
+          "error_code": 100,
+          "error_type": "OAuthException"
+        }
+      },
+      "best_period": null,
+      "sample_data": null,
+      "data_structure": null
+    }
+  },
+  "time_series_verification": {
+    "reach": {
+      "single_day": {
+        "status": "success",
+        "analysis": {
+          "data_points": 1,
+          "sample_values": [
+            {
+              "value": 8,
+              "end_time": "2025-06-24T07:00:00+0000"
+            }
+          ],
+          "date_range": {
+            "first": "2025-06-24T07:00:00+0000",
+            "last": "2025-06-24T07:00:00+0000"
+          },
+          "data_structure": {
+            "name": "reach",
+            "period": "day",
+            "values": [
+              {
+                "value": 8,
+                "end_time": "2025-06-24T07:00:00+0000"
+              }
+            ],
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+            "id": "17841455808057230/insights/reach/day"
+          }
+        }
+      },
+      "weekly_breakdown": {
+        "status": "success",
+        "analysis": {
+          "data_points": 7,
+          "sample_values": [
+            {
+              "value": 3996,
+              "end_time": "2025-06-18T07:00:00+0000"
+            },
+            {
+              "value": 11186,
+              "end_time": "2025-06-19T07:00:00+0000"
+            },
+            {
+              "value": 7295,
+              "end_time": "2025-06-20T07:00:00+0000"
+            }
+          ],
+          "date_range": {
+            "first": "2025-06-18T07:00:00+0000",
+            "last": "2025-06-24T07:00:00+0000"
+          },
+          "data_structure": {
+            "name": "reach",
+            "period": "day",
+            "values": [
+              {
+                "value": 3996,
+                "end_time": "2025-06-18T07:00:00+0000"
+              },
+              {
+                "value": 11186,
+                "end_time": "2025-06-19T07:00:00+0000"
+              },
+              {
+                "value": 7295,
+                "end_time": "2025-06-20T07:00:00+0000"
+              },
+              {
+                "value": 6197,
+                "end_time": "2025-06-21T07:00:00+0000"
+              },
+              {
+                "value": 44,
+                "end_time": "2025-06-22T07:00:00+0000"
+              },
+              {
+                "value": 50,
+                "end_time": "2025-06-23T07:00:00+0000"
+              },
+              {
+                "value": 8,
+                "end_time": "2025-06-24T07:00:00+0000"
+              }
+            ],
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+            "id": "17841455808057230/insights/reach/day"
+          }
+        }
+      },
+      "monthly_breakdown": {
+        "status": "success",
+        "analysis": {
+          "data_points": 30,
+          "sample_values": [
+            {
+              "value": 692,
+              "end_time": "2025-05-26T07:00:00+0000"
+            },
+            {
+              "value": 384,
+              "end_time": "2025-05-27T07:00:00+0000"
+            },
+            {
+              "value": 371,
+              "end_time": "2025-05-28T07:00:00+0000"
+            }
+          ],
+          "date_range": {
+            "first": "2025-05-26T07:00:00+0000",
+            "last": "2025-06-24T07:00:00+0000"
+          },
+          "data_structure": {
+            "name": "reach",
+            "period": "day",
+            "values": [
+              {
+                "value": 692,
+                "end_time": "2025-05-26T07:00:00+0000"
+              },
+              {
+                "value": 384,
+                "end_time": "2025-05-27T07:00:00+0000"
+              },
+              {
+                "value": 371,
+                "end_time": "2025-05-28T07:00:00+0000"
+              },
+              {
+                "value": 435,
+                "end_time": "2025-05-29T07:00:00+0000"
+              },
+              {
+                "value": 925,
+                "end_time": "2025-05-30T07:00:00+0000"
+              },
+              {
+                "value": 3757,
+                "end_time": "2025-05-31T07:00:00+0000"
+              },
+              {
+                "value": 3230,
+                "end_time": "2025-06-01T07:00:00+0000"
+              },
+              {
+                "value": 4068,
+                "end_time": "2025-06-02T07:00:00+0000"
+              },
+              {
+                "value": 3036,
+                "end_time": "2025-06-03T07:00:00+0000"
+              },
+              {
+                "value": 2090,
+                "end_time": "2025-06-04T07:00:00+0000"
+              },
+              {
+                "value": 2181,
+                "end_time": "2025-06-05T07:00:00+0000"
+              },
+              {
+                "value": 1948,
+                "end_time": "2025-06-06T07:00:00+0000"
+              },
+              {
+                "value": 1522,
+                "end_time": "2025-06-07T07:00:00+0000"
+              },
+              {
+                "value": 1056,
+                "end_time": "2025-06-08T07:00:00+0000"
+              },
+              {
+                "value": 1066,
+                "end_time": "2025-06-09T07:00:00+0000"
+              },
+              {
+                "value": 1198,
+                "end_time": "2025-06-10T07:00:00+0000"
+              },
+              {
+                "value": 966,
+                "end_time": "2025-06-11T07:00:00+0000"
+              },
+              {
+                "value": 864,
+                "end_time": "2025-06-12T07:00:00+0000"
+              },
+              {
+                "value": 1796,
+                "end_time": "2025-06-13T07:00:00+0000"
+              },
+              {
+                "value": 1550,
+                "end_time": "2025-06-14T07:00:00+0000"
+              },
+              {
+                "value": 876,
+                "end_time": "2025-06-15T07:00:00+0000"
+              },
+              {
+                "value": 1485,
+                "end_time": "2025-06-16T07:00:00+0000"
+              },
+              {
+                "value": 1673,
+                "end_time": "2025-06-17T07:00:00+0000"
+              },
+              {
+                "value": 3996,
+                "end_time": "2025-06-18T07:00:00+0000"
+              },
+              {
+                "value": 11186,
+                "end_time": "2025-06-19T07:00:00+0000"
+              },
+              {
+                "value": 7295,
+                "end_time": "2025-06-20T07:00:00+0000"
+              },
+              {
+                "value": 6197,
+                "end_time": "2025-06-21T07:00:00+0000"
+              },
+              {
+                "value": 44,
+                "end_time": "2025-06-22T07:00:00+0000"
+              },
+              {
+                "value": 50,
+                "end_time": "2025-06-23T07:00:00+0000"
+              },
+              {
+                "value": 8,
+                "end_time": "2025-06-24T07:00:00+0000"
+              }
+            ],
+            "title": "リーチ",
+            "description": "ビジネスアカウントのメディアオブジェクトの合計ユニークビュー数です",
+            "id": "17841455808057230/insights/reach/day"
+          }
+        }
+      }
+    },
+    "profile_views": {
+      "single_day": {
+        "status": "error",
+        "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+      },
+      "weekly_breakdown": {
+        "status": "error",
+        "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+      },
+      "monthly_breakdown": {
+        "status": "error",
+        "error_message": "(#100) The following metrics (profile_views) should be specified with parameter metric_type=total_value"
+      }
+    },
+    "impressions": {
+      "single_day": {
+        "status": "error",
+        "error_message": "(#100) Starting from version 22 and above, the impressions metric is no longer supported for the queried user. Please refer to the documentation at https://developers.facebook.com/docs/instagram-api/reference/ig-user/insights for a list of supported metrics."
+      },
+      "weekly_breakdown": {
+        "status": "error",
+        "error_message": "(#100) Starting from version 22 and above, the impressions metric is no longer supported for the queried user. Please refer to the documentation at https://developers.facebook.com/docs/instagram-api/reference/ig-user/insights for a list of supported metrics."
+      },
+      "monthly_breakdown": {
+        "status": "error",
+        "error_message": "(#100) Starting from version 22 and above, the impressions metric is no longer supported for the queried user. Please refer to the documentation at https://developers.facebook.com/docs/instagram-api/reference/ig-user/insights for a list of supported metrics."
+      }
+    },
+    "follower_count": {
+      "single_day": {
+        "status": "success",
+        "analysis": {
+          "data_points": 1,
+          "sample_values": [
+            {
+              "value": 0,
+              "end_time": "2025-06-24T07:00:00+0000"
+            }
+          ],
+          "date_range": {
+            "first": "2025-06-24T07:00:00+0000",
+            "last": "2025-06-24T07:00:00+0000"
+          },
+          "data_structure": {
+            "name": "follower_count",
+            "period": "day",
+            "values": [
+              {
+                "value": 0,
+                "end_time": "2025-06-24T07:00:00+0000"
+              }
+            ],
+            "title": "フォロワー数",
+            "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+            "id": "17841455808057230/insights/follower_count/day"
+          }
+        }
+      },
+      "weekly_breakdown": {
+        "status": "success",
+        "analysis": {
+          "data_points": 7,
+          "sample_values": [
+            {
+              "value": 2,
+              "end_time": "2025-06-18T07:00:00+0000"
+            },
+            {
+              "value": 0,
+              "end_time": "2025-06-19T07:00:00+0000"
+            },
+            {
+              "value": 2,
+              "end_time": "2025-06-20T07:00:00+0000"
+            }
+          ],
+          "date_range": {
+            "first": "2025-06-18T07:00:00+0000",
+            "last": "2025-06-24T07:00:00+0000"
+          },
+          "data_structure": {
+            "name": "follower_count",
+            "period": "day",
+            "values": [
+              {
+                "value": 2,
+                "end_time": "2025-06-18T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-19T07:00:00+0000"
+              },
+              {
+                "value": 2,
+                "end_time": "2025-06-20T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-21T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-22T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-23T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-24T07:00:00+0000"
+              }
+            ],
+            "title": "フォロワー数",
+            "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+            "id": "17841455808057230/insights/follower_count/day"
+          }
+        }
+      },
+      "monthly_breakdown": {
+        "status": "success",
+        "analysis": {
+          "data_points": 30,
+          "sample_values": [
+            {
+              "value": 1,
+              "end_time": "2025-05-26T07:00:00+0000"
+            },
+            {
+              "value": 1,
+              "end_time": "2025-05-27T07:00:00+0000"
+            },
+            {
+              "value": 0,
+              "end_time": "2025-05-28T07:00:00+0000"
+            }
+          ],
+          "date_range": {
+            "first": "2025-05-26T07:00:00+0000",
+            "last": "2025-06-24T07:00:00+0000"
+          },
+          "data_structure": {
+            "name": "follower_count",
+            "period": "day",
+            "values": [
+              {
+                "value": 1,
+                "end_time": "2025-05-26T07:00:00+0000"
+              },
+              {
+                "value": 1,
+                "end_time": "2025-05-27T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-05-28T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-05-29T07:00:00+0000"
+              },
+              {
+                "value": 1,
+                "end_time": "2025-05-30T07:00:00+0000"
+              },
+              {
+                "value": 4,
+                "end_time": "2025-05-31T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-01T07:00:00+0000"
+              },
+              {
+                "value": 5,
+                "end_time": "2025-06-02T07:00:00+0000"
+              },
+              {
+                "value": 1,
+                "end_time": "2025-06-03T07:00:00+0000"
+              },
+              {
+                "value": 1,
+                "end_time": "2025-06-04T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-05T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-06T07:00:00+0000"
+              },
+              {
+                "value": 5,
+                "end_time": "2025-06-07T07:00:00+0000"
+              },
+              {
+                "value": 1,
+                "end_time": "2025-06-08T07:00:00+0000"
+              },
+              {
+                "value": 2,
+                "end_time": "2025-06-09T07:00:00+0000"
+              },
+              {
+                "value": 1,
+                "end_time": "2025-06-10T07:00:00+0000"
+              },
+              {
+                "value": 2,
+                "end_time": "2025-06-11T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-12T07:00:00+0000"
+              },
+              {
+                "value": 1,
+                "end_time": "2025-06-13T07:00:00+0000"
+              },
+              {
+                "value": 1,
+                "end_time": "2025-06-14T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-15T07:00:00+0000"
+              },
+              {
+                "value": 1,
+                "end_time": "2025-06-16T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-17T07:00:00+0000"
+              },
+              {
+                "value": 2,
+                "end_time": "2025-06-18T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-19T07:00:00+0000"
+              },
+              {
+                "value": 2,
+                "end_time": "2025-06-20T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-21T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-22T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-23T07:00:00+0000"
+              },
+              {
+                "value": 0,
+                "end_time": "2025-06-24T07:00:00+0000"
+              }
+            ],
+            "title": "フォロワー数",
+            "description": "このプロフィールをフォロー中のユニークアカウントの合計数です",
+            "id": "17841455808057230/insights/follower_count/day"
+          }
+        }
+      }
+    }
+  },
+  "combination_verification": {
+    "basic_daily_stats": {
+      "status": "error",
+      "requested_metrics": [
+        "reach",
+        "profile_views",
+        "website_clicks"
+      ],
+      "error_message": "(#100) The following metrics (profile_views,website_clicks) should be specified with parameter metric_type=total_value"
+    },
+    "follower_focused": {
+      "status": "error",
+      "requested_metrics": [
+        "follower_count",
+        "followers_count",
+        "total_followers"
+      ],
+      "error_message": "(#100) metric[1] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+    },
+    "engagement_focused": {
+      "status": "error",
+      "requested_metrics": [
+        "likes",
+        "comments",
+        "shares",
+        "total_interactions"
+      ],
+      "error_message": "(#100) The following metrics (likes,comments,shares,total_interactions) should be specified with parameter metric_type=total_value"
+    },
+    "profile_activity": {
+      "status": "error",
+      "requested_metrics": [
+        "profile_views",
+        "website_clicks",
+        "get_directions_clicks",
+        "phone_number_clicks"
+      ],
+      "error_message": "(#100) metric[2] must be one of the following values: impressions, reach, follower_count, website_clicks, profile_views, online_followers, accounts_engaged, total_interactions, likes, comments, shares, saves, replies, engaged_audience_demographics, reached_audience_demographics, follower_demographics, follows_and_unfollows, profile_links_taps, views, threads_likes, threads_replies, reposts, quotes, threads_followers, threads_follower_demographics, content_views, threads_views"
+    },
+    "comprehensive": {
+      "status": "error",
+      "requested_metrics": [
+        "reach",
+        "impressions",
+        "profile_views",
+        "website_clicks",
+        "follower_count"
+      ],
+      "error_message": "(#100) The following metrics (profile_views,website_clicks) should be specified with parameter metric_type=total_value"
+    }
+  },
+  "summary": {
+    "total_metrics_tested": 29,
+    "available_metrics": 2,
+    "successful_combinations": 0
+  }
+}

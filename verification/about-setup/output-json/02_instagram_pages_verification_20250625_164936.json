@@ -1,0 +1,152 @@
+{
+  "status": "success",
+  "timestamp": "2025-06-25T16:49:36.781869",
+  "input_data": {
+    "long_term_token_length": 189,
+    "total_facebook_pages": 5
+  },
+  "api_responses": {
+    "facebook_pages": {
+      "data": [
+        {
+          "id": "533679183151841",
+          "name": "Ghoona",
+          "access_token": "EAARrfZCwPTGUBO3BUG8UL0xizjZAsZADFZCrmjuJhKf3vcLkSYdN5ZCu2JnMeU2WLS1Cqo6OTX34JugRW8lZAsbnG1v570YHj4hLcVc9ZCLnYtxZAO7jOhZAY3pczkVmljRjmiQOQOb3CawNa5pTD4JLPHGLnP5JVMyAufSbrdiBV4knw32Mckc3D9tTIsUMKBbwEBWXZB",
+          "category": "IT企業",
+          "category_list": [
+            {
+              "id": "1130035050388269",
+              "name": "IT企業"
+            }
+          ]
+        },
+        {
+          "id": "221005154431842",
+          "name": "有限会社カネタケ",
+          "access_token": "EAARrfZCwPTGUBOzxXxZBaTxSk6ygDag7XavmurcFiwZBZAscICrvdStimMrcHeMfdo65m40lbBgx0ejmb1Hi0aTCoAmJzQZAbtmpebGbZCSMTJwNgCpe6XiXvIwGU7OvU7Ohf64ZCdTVEDJ6yATh5p0QvnLcZAZBUgxNcS0Nhw73LZCDDEXZBiV6IO5zCTFdl9eIRwoGEoZD",
+          "category": "自営業",
+          "category_list": [
+            {
+              "id": "357887979616332",
+              "name": "自営業"
+            }
+          ]
+        },
+        {
+          "id": "109494364279579",
+          "name": "Shota Yamashita",
+          "access_token": "EAARrfZCwPTGUBOwpHRZCOOoBcJZAEUGySKbRMzuH0ecKvaKn4hpcquZA2gas08jQWZBSZAezb9RxDE9sYNnjkt9SALtk6KAGAtRUYWBPby7kD2c04Lmq6FZALUMWqccNAhW53ZAH2yyZAHSaygCHZBWOTMve8VBmBnXAPT5O38au9AosoXUJF34sXtZAmBu2X2vs5OTxZAMZD",
+          "category": "個人ブログ",
+          "category_list": [
+            {
+              "id": "2700",
+              "name": "個人ブログ"
+            }
+          ]
+        },
+        {
+          "id": "103295771313100",
+          "name": "ヤマサリノベ",
+          "access_token": "EAARrfZCwPTGUBO1ejYPNwA8ONHYiQPtfJeV9JphRTKe4wXLMNKVcTvJUtKZBxfdTwWGcdZBy3ZCfalf0zqTBfZCnPuRYEXx7Uo66RPChFLZCY9SmE5eKnCcnGmyJEFiDWfeP6M7bJeExUQn42I4qAAZAqhLZAXw7uZCSXiWeXXlzxtLzXHnB9y7jMZATDEixIBIwkrmJ4ZD",
+          "category": "ビジネスサービス",
+          "category_list": [
+            {
+              "id": "187133811318958",
+              "name": "ビジネスサービス"
+            }
+          ]
+        },
+        {
+          "id": "726815370789294",
+          "name": "時と共に価値の出る家づくり ホルツバウハウス",
+          "access_token": "EAARrfZCwPTGUBO7fBJxFxXs7ljxCpvQa9PFQ1mQt0oZCEN1XCHIGeerg42rU5I7lpoCemLVEYPAsZAYYCpKtZAZCNMBz9cknvghleMGHXLVMld9J2sN1N8bKTHpTnHNtOarjdtI0DZCCSwDW8xKcR50MBB4WTJ3EuhimUTPSIdcIWwQKdpDTWKtSl6a71kzJcR7LJf",
+          "category": "建築デザイナー",
+          "category_list": [
+            {
+              "id": "1711765319078442",
+              "name": "建築デザイナー"
+            }
+          ]
+        }
+      ],
+      "paging": {
+        "cursors": {
+          "before": "QVFIUnlBNlctNkNUZA2ticjFoTDY1WWZA6LTF2VmowTlhDd3lYTkxEdDczZAThsT2xPQU8wcDNhSzdBOUdyc0xhbE5ianZADNFBjelJZAUzFYZAWxjbkRhVWQ2NlJB",
+          "after": "QVFIUmhUSnBHM3ZAYYmhLdVNrbEd5dkZAhQk9USUpWeFRqRGJwVEFBTk9WTkxfa0VFM3o2T2lyM3dYNFg2TWw0OTBPTm1KV1ZA6bDFFUlFCcTdGVW1nY0xkQlJn"
+        }
+      }
+    },
+    "instagram_accounts_found": 5
+  },
+  "instagram_accounts": [
+    {
+      "instagram_user_id": "17841471451691385",
+      "username": "ghoona.ai.inc",
+      "account_name": "Ghoona",
+      "profile_picture_url": "https://scontent-nrt1-1.xx.fbcdn.net/v/t51.2885-15/469001652_430815103404302_6752448159808730047_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7d201b&_nc_ohc=u7QN5SbWPxUQ7kNvwGXmOE2&_nc_oc=AdlLNEFd4C5GQubQ_QDgLFxYHC-d3sPs7dgMZcdOZ_tXcsgar9LWg9ciyHGSkDVA6No&_nc_zt=23&_nc_ht=scontent-nrt1-1.xx&edm=AL-3X8kEAAAA&oh=00_AfMC-Mml0uZvhmCrziQcwchatpyisAG5GKP-_5JEhq5n2A&oe=68617346",
+      "access_token": "EAARrfZCwPTGUBO3BUG8UL0xizjZAsZADFZCrmjuJhKf3vcLkSYdN5ZCu2JnMeU2WLS1Cqo6OTX34JugRW8lZAsbnG1v570YHj4hLcVc9ZCLnYtxZAO7jOhZAY3pczkVmljRjmiQOQOb3CawNa5pTD4JLPHGLnP5JVMyAufSbrdiBV4knw32Mckc3D9tTIsUMKBbwEBWXZB",
+      "facebook_page_id": "533679183151841",
+      "facebook_page_name": "Ghoona",
+      "token_expires_at": null
+    },
+    {
+      "instagram_user_id": "17841464830817178",
+      "username": "kanetake_net",
+      "account_name": "(有)カネタケ/北九州【住宅リフォーム専門店】",
+      "profile_picture_url": "https://scontent-nrt1-2.xx.fbcdn.net/v/t51.2885-15/425408939_939858344500055_1881862555334592370_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7d201b&_nc_ohc=a1y69mY2CeMQ7kNvwGGTyke&_nc_oc=AdnSrcg4u6GiIb6XqVLOwGZuyG54MLBRmJQfixHpwMWoeD0QYDC6Sy68pHrKdlYc-4E&_nc_zt=23&_nc_ht=scontent-nrt1-2.xx&edm=AL-3X8kEAAAA&oh=00_AfPr__Eiag5JXcLLRKgDHZ-AkoFHNWfIdw7BaOO7S2u8uQ&oe=686165DA",
+      "access_token": "EAARrfZCwPTGUBOzxXxZBaTxSk6ygDag7XavmurcFiwZBZAscICrvdStimMrcHeMfdo65m40lbBgx0ejmb1Hi0aTCoAmJzQZAbtmpebGbZCSMTJwNgCpe6XiXvIwGU7OvU7Ohf64ZCdTVEDJ6yATh5p0QvnLcZAZBUgxNcS0Nhw73LZCDDEXZBiV6IO5zCTFdl9eIRwoGEoZD",
+      "facebook_page_id": "221005154431842",
+      "facebook_page_name": "有限会社カネタケ",
+      "token_expires_at": null
+    },
+    {
+      "instagram_user_id": "17841408533767014",
+      "username": "____syota_01",
+      "account_name": "山下翔大｜Shota Yamashita",
+      "profile_picture_url": "https://scontent-nrt1-2.xx.fbcdn.net/v/t51.2885-15/405511775_6385285394906126_8827825003200632100_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7d201b&_nc_ohc=Vfm6O1JEf_UQ7kNvwGgnz2t&_nc_oc=AdkEXPMrn_UIL2rColJKBiAoGU-Qq9flZIHXcSy7i-IIdM_DHpVTCoBrvM80e2aw0Y0&_nc_zt=23&_nc_ht=scontent-nrt1-2.xx&edm=AL-3X8kEAAAA&oh=00_AfP1F4AVrB5XFREJAYl8WNF_Y_d6m737jXBqAW0lp1T1pQ&oe=686172FB",
+      "access_token": "EAARrfZCwPTGUBOwpHRZCOOoBcJZAEUGySKbRMzuH0ecKvaKn4hpcquZA2gas08jQWZBSZAezb9RxDE9sYNnjkt9SALtk6KAGAtRUYWBPby7kD2c04Lmq6FZALUMWqccNAhW53ZAH2yyZAHSaygCHZBWOTMve8VBmBnXAPT5O38au9AosoXUJF34sXtZAmBu2X2vs5OTxZAMZD",
+      "facebook_page_id": "109494364279579",
+      "facebook_page_name": "Shota Yamashita",
+      "token_expires_at": null
+    },
+    {
+      "instagram_user_id": "17841455808057230",
+      "username": "yamasa_renovation",
+      "account_name": "ヤマサリノベ | 鹿児島市 / 姶良市 / 日置市 | リノベーション / リフォーム",
+      "profile_picture_url": "https://scontent-nrt1-1.xx.fbcdn.net/v/t51.2885-15/412183010_1206013827022784_7469412081947786505_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7d201b&_nc_ohc=6kb-sesBweUQ7kNvwFmqWpm&_nc_oc=AdnDC6Lvgh_jlXUJzP2FQFqLJInIQwBNtszLaX9M_H4d1z6L9TR2QdRMwN89h3octzQ&_nc_zt=23&_nc_ht=scontent-nrt1-1.xx&edm=AL-3X8kEAAAA&oh=00_AfM_guAQn6nawO4OmkO70lThK1PLXxYKJ4i_VweyQdXMSg&oe=686164C6",
+      "access_token": "EAARrfZCwPTGUBO1ejYPNwA8ONHYiQPtfJeV9JphRTKe4wXLMNKVcTvJUtKZBxfdTwWGcdZBy3ZCfalf0zqTBfZCnPuRYEXx7Uo66RPChFLZCY9SmE5eKnCcnGmyJEFiDWfeP6M7bJeExUQn42I4qAAZAqhLZAXw7uZCSXiWeXXlzxtLzXHnB9y7jMZATDEixIBIwkrmJ4ZD",
+      "facebook_page_id": "103295771313100",
+      "facebook_page_name": "ヤマサリノベ",
+      "token_expires_at": null
+    },
+    {
+      "instagram_user_id": "17841402015304577",
+      "username": "holz_bauhaus",
+      "account_name": "ホルツバウハウス　広島の注文住宅/リフォーム",
+      "profile_picture_url": "https://scontent-nrt1-1.xx.fbcdn.net/v/t51.2885-15/417978705_267392332787112_7990561465286480358_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7d201b&_nc_ohc=2nVphnEycCIQ7kNvwElS3W6&_nc_oc=Adm21wxpNahCepnz4o6ZRNoh3uQxfsUKIShFccAYZeXfth1u2ltc7FM5wU4Vs93TCug&_nc_zt=23&_nc_ht=scontent-nrt1-1.xx&edm=AL-3X8kEAAAA&oh=00_AfNofGCSx3S-wDnuXnnLi4tzL6vftpXJCxnz8H2Zht1X0w&oe=68618E2F",
+      "access_token": "EAARrfZCwPTGUBO7fBJxFxXs7ljxCpvQa9PFQ1mQt0oZCEN1XCHIGeerg42rU5I7lpoCemLVEYPAsZAYYCpKtZAZCNMBz9cknvghleMGHXLVMld9J2sN1N8bKTHpTnHNtOarjdtI0DZCCSwDW8xKcR50MBB4WTJ3EuhimUTPSIdcIWwQKdpDTWKtSl6a71kzJcR7LJf",
+      "facebook_page_id": "726815370789294",
+      "facebook_page_name": "時と共に価値の出る家づくり ホルツバウハウス",
+      "token_expires_at": null
+    }
+  ],
+  "summary": {
+    "total_facebook_pages": 5,
+    "instagram_connected_pages": 5,
+    "target_data_structure": {
+      "instagram_user_id": "string (UK)",
+      "username": "string",
+      "account_name": "string",
+      "profile_picture_url": "string",
+      "access_token_encrypted": "text (暗号化は未実装)",
+      "token_expires_at": "timestamp",
+      "facebook_page_id": "string"
+    }
+  },
+  "notes": [
+    "合計 5 個のFacebookページを発見",
+    "うち 5 個がInstagramに接続済み",
+    "暗号化処理は要求通り未実装",
+    "全てのターゲットデータ構造を取得済み"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "timestamp": "2025-06-25T16:49:39.145537",
+  "input_data": {
+    "app_id": "1244097340722277",
+    "app_secret_length": 32,
+    "short_token_length": 245
+  },
+  "api_response": {
+    "access_token": "EAARrfZCwPTGUBOwlGAWVIV5kI0Blv2O1ME5pVicYM9nRZBAqlnGEcr8J9Mr1u8mpFtgQWOxrCTorFvK6hhbLZBtagxJaF0jN9daIqyBDUz83J7yUBZBJ1TjTmanzxSZCYqJOgjn4sbyjmgN5omoVZBQ0ZAmzr5fe1XWt9ZC8CzwGrZCvTqirWCxbFmOC5ppif",
+    "token_type": "bearer"
+  },
+  "long_term_token": "EAARrfZCwPTGUBOwlGAWVIV5kI0Blv2O1ME5pVicYM9nRZBAqlnGEcr8J9Mr1u8mpFtgQWOxrCTorFvK6hhbLZBtagxJaF0jN9daIqyBDUz83J7yUBZBJ1TjTmanzxSZCYqJOgjn4sbyjmgN5omoVZBQ0ZAmzr5fe1XWt9ZC8CzwGrZCvTqirWCxbFmOC5ppif",
+  "expires_in": null,
+  "token_type": "bearer",
+  "notes": [
+    "長期トークンの取得に成功",
+    "有効期限: N/A秒",
+    "このトークンを使用してFacebookページの一覧を取得します"
+  ]
+}
