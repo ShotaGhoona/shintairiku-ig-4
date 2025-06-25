@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { yearlyAnalyticsData } from "./dummy-data/dummy-data";
 import { DataTable } from "./components/DataTable";
-import { FollowerChart } from "./components/FollowerChart";
+// import { FollowerChart } from "./components/FollowerChart";
 import { EngagementChart } from "./components/EngagementChart";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
@@ -41,7 +41,7 @@ export default function YearlyInsight() {
 
       {/* グラフセクション */}
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
-        <FollowerChart data={yearlyAnalyticsData} />
+        {/* <FollowerChart data={yearlyAnalyticsData} /> */}
         <EngagementChart data={yearlyAnalyticsData} />
       </div>
     </div>

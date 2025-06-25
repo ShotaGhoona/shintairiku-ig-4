@@ -1,6 +1,6 @@
 "use client";
 
-import { MonthlyAnalytics } from "../dummy-data";
+import { MonthlyAnalytics } from "../dummy-data/dummy-data";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   ComposedChart,
