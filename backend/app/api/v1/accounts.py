@@ -22,6 +22,12 @@ logger = logging.getLogger(__name__)
 # ルーター設定
 router = APIRouter(tags=["accounts"])
 
+# CORS対応のためのOPTIONSハンドラー
+@router.options("/")
+async def options_accounts():
+    """CORS プリフライトリクエスト対応"""
+    return {}
+
 
 @router.get(
     "/",
