@@ -24,13 +24,21 @@ router = APIRouter(tags=["accounts"])
 
 # CORS対応のためのOPTIONSハンドラー
 @router.options("/")
+@router.options("")
 async def options_accounts():
     """CORS プリフライトリクエスト対応"""
     return {}
 
 
+# trailing slashありとなしの両方に対応
 @router.get(
     "/",
+    response_model=AccountListResponse,
+    summary="アカウント一覧取得",
+    description="Instagram アカウントの一覧を取得します。"
+)
+@router.get(
+    "",
     response_model=AccountListResponse,
     summary="アカウント一覧取得",
     description="Instagram アカウントの一覧を取得します。"
