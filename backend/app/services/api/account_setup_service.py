@@ -186,30 +186,52 @@ class AccountSetupService:
             )
     
     async def _get_facebook_pages(self, access_token: str) -> List[FacebookPageInfo]:
-        """Facebookページ一覧を取得"""
+        """Facebookページ一覧を取得（ページネーション対応）"""
         url = "https://graph.facebook.com/v21.0/me/accounts"
         
         params = {
             'access_token': access_token,
-            'fields': 'id,name,access_token,category,category_list'
+            'fields': 'id,name,access_token,category,category_list',
+            'limit': 100  # 一度に取得する最大件数
         }
         
+        pages = []
+        page_count = 0
+        
         try:
-            response = requests.get(url, params=params, timeout=30)
-            response.raise_for_status()
+            while url:
+                page_count += 1
+                logger.info(f"Fetching Facebook pages - page {page_count}")
+                
+                response = requests.get(url, params=params, timeout=30)
+                response.raise_for_status()
+                
+                data = response.json()
+                current_pages = data.get('data', [])
+                
+                logger.info(f"Retrieved {len(current_pages)} pages in batch {page_count}")
+                
+                # 現在のページのデータを処理
+                for page_data in current_pages:
+                    page = FacebookPageInfo(
+                        page_id=page_data['id'],
+                        page_name=page_data['name'],
+                        page_access_token=page_data['access_token'],
+                        category=page_data.get('category')
+                    )
+                    pages.append(page)
+                
+                # 次のページのURLを取得
+                paging = data.get('paging', {})
+                url = paging.get('next')
+                if url:
+                    # 次のリクエストではparamsをクリア（URLに含まれるため）
+                    params = {}
+                    logger.info(f"Found next page, continuing pagination...")
+                else:
+                    logger.info(f"No more pages, pagination complete")
             
-            data = response.json()
-            pages = []
-            
-            for page_data in data.get('data', []):
-                page = FacebookPageInfo(
-                    page_id=page_data['id'],
-                    page_name=page_data['name'],
-                    page_access_token=page_data['access_token'],
-                    category=page_data.get('category')
-                )
-                pages.append(page)
-            
+            logger.info(f"Total Facebook pages retrieved: {len(pages)}")
             return pages
             
         except requests.exceptions.RequestException as e:

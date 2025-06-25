@@ -1,7 +1,7 @@
 "use client";
 
 import { PostInsightData } from "../types/postInsight";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import {
   ComposedChart,
   Bar,
@@ -50,13 +50,13 @@ export function PostInsightChart({ data }: PostInsightChartProps) {
     return [value.toLocaleString(), name];
   };
 
-  const CustomTooltip = ({ active, payload, label }: any) => {
+  const CustomTooltip = ({ active, payload }: { active?: boolean; payload?: Array<{ color: string; name: string; value: number; payload: { date: string; type: string } }>; label?: string }) => {
     if (active && payload && payload.length) {
       const data = payload[0].payload;
       return (
         <div className="bg-card border border-border rounded-lg p-3 shadow-lg">
           <p className="font-medium">{`${data.date} (${data.type})`}</p>
-          {payload.map((entry: any, index: number) => (
+          {payload.map((entry: { color: string; name: string; value: number }, index: number) => (
             <p key={index} style={{ color: entry.color }} className="text-sm">
               {entry.name}: {formatTooltipValue(entry.value, entry.name)[0]}
             </p>

@@ -61,7 +61,7 @@ class SetupApiService {
   /**
    * セットアップ状況を確認
    */
-  async getSetupStatus(): Promise<any> {
+  async getSetupStatus(): Promise<{ status: string; accounts_count: number; last_setup?: string }> {
     const response = await fetch(`${this.baseURL}/api/v1/account-setup/status`, {
       method: 'GET',
       headers: {
@@ -80,7 +80,7 @@ class SetupApiService {
   /**
    * 認証情報の事前検証
    */
-  async validateCredentials(appId: string, appSecret: string): Promise<any> {
+  async validateCredentials(appId: string, appSecret: string): Promise<{ valid: boolean; message?: string }> {
     const params = new URLSearchParams({
       app_id: appId,
       app_secret: appSecret,
@@ -124,14 +124,14 @@ export const setupApi = {
   /**
    * セットアップ状況取得
    */
-  getSetupStatus: async (): Promise<any> => {
+  getSetupStatus: async (): Promise<{ status: string; accounts_count: number; last_setup?: string }> => {
     return setupApiService.getSetupStatus();
   },
 
   /**
    * 認証情報検証
    */
-  validateCredentials: async (appId: string, appSecret: string): Promise<any> => {
+  validateCredentials: async (appId: string, appSecret: string): Promise<{ valid: boolean; message?: string }> => {
     return setupApiService.validateCredentials(appId, appSecret);
   },
 };

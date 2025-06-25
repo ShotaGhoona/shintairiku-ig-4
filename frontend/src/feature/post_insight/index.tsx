@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { addDays, format } from "date-fns";
+import { useState } from "react";
+import { format } from "date-fns";
 import { Calendar as CalendarIcon, AlertCircle, Loader2 } from "lucide-react";
 import { DateRange } from "react-day-picker";
 import { PostInsightTable } from "./components/PostInsightTable";

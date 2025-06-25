@@ -13,6 +13,7 @@ import {
 import { ChevronDown, Check, Download, AlertTriangle, Loader2, RefreshCw } from "lucide-react";
 import { exportToPDF } from "@/lib/pdfExport";
 import { useAccount } from "@/hooks/useAccount";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default function Header() {
   const {
@@ -128,85 +129,87 @@ export default function Header() {
             </Button>
             </PopoverTrigger>
             <PopoverContent className="w-80 p-2" align="start">
-            <div className="space-y-1">
-                <div className="flex items-center justify-between px-2 py-1.5">
-                  <span className="text-sm font-medium text-muted-foreground">
-                    アカウントを選択
-                  </span>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={handleRefresh}
-                    disabled={loading}
-                    className="h-6 w-6 p-0"
-                  >
-                    <RefreshCw className={`w-3 h-3 ${loading ? 'animate-spin' : ''}`} />
-                  </Button>
-                </div>
-                
-                {/* エラー表示 */}
-                {error && (
-                  <Alert variant="destructive" className="mx-2 mb-2">
-                    <AlertTriangle className="h-4 w-4" />
-                    <AlertDescription className="text-xs">
-                      {error}
-                    </AlertDescription>
-                  </Alert>
-                )}
-                
-                {/* アカウント一覧 */}
-                {accounts.length === 0 && !loading ? (
-                  <div className="px-2 py-4 text-center text-sm text-muted-foreground">
-                    アカウントが見つかりません
-                  </div>
-                ) : (
-                  accounts.map((account) => {
-                    const summary = getAccountSummary(account);
-                    return (
-                      <Button
-                        key={account.id}
+                <ScrollArea className="h-[80vh]">
+                <div className="space-y-1">
+                    <div className="flex items-center justify-between px-2 py-1.5">
+                    <span className="text-sm font-medium text-muted-foreground">
+                        アカウントを選択
+                    </span>
+                    <Button
                         variant="ghost"
-                        className="w-full justify-start h-auto p-2"
-                        onClick={() => handleAccountSelect(account.id)}
-                      >
-                        <div className="flex items-center gap-3 w-full">
-                          <Avatar className="w-8 h-8">
-                            <AvatarImage src={summary.avatar} alt={summary.displayName} />
-                            <AvatarFallback>
-                              {summary.displayName.charAt(0).toUpperCase()}
-                            </AvatarFallback>
-                          </Avatar>
-                          <div className="flex-1 text-left">
-                            <div className="font-medium text-sm">@{account.username}</div>
-                            {/* ステータス表示 */}
-                            <div className="flex items-center gap-2 mt-1">
-                              <div className={`w-2 h-2 rounded-full ${
-                                account.is_active ? 'bg-green-500' : 'bg-gray-400'
-                              }`} />
-                              <span className="text-xs text-muted-foreground">
-                                {account.is_active ? 'アクティブ' : '無効'}
-                              </span>
-                              {summary.tokenWarning !== 'none' && (
-                                <>
-                                  <AlertTriangle className="w-3 h-3 text-orange-500" />
-                                  <span className="text-xs text-orange-600">
-                                    {summary.daysUntilExpiry !== undefined ? 
-                                      `${summary.daysUntilExpiry}日後期限切れ` : 
-                                      '期限切れ'}
-                                  </span>
-                                </>
-                              )}
+                        size="sm"
+                        onClick={handleRefresh}
+                        disabled={loading}
+                        className="h-6 w-6 p-0"
+                    >
+                        <RefreshCw className={`w-3 h-3 ${loading ? 'animate-spin' : ''}`} />
+                    </Button>
+                    </div>
+                    
+                    {/* エラー表示 */}
+                    {error && (
+                    <Alert variant="destructive" className="mx-2 mb-2">
+                        <AlertTriangle className="h-4 w-4" />
+                        <AlertDescription className="text-xs">
+                        {error}
+                        </AlertDescription>
+                    </Alert>
+                    )}
+                    
+                    {/* アカウント一覧 */}
+                    {accounts.length === 0 && !loading ? (
+                    <div className="px-2 py-4 text-center text-sm text-muted-foreground">
+                        アカウントが見つかりません
+                    </div>
+                    ) : (
+                    accounts.map((account) => {
+                        const summary = getAccountSummary(account);
+                        return (
+                        <Button
+                            key={account.id}
+                            variant="ghost"
+                            className="w-full justify-start h-auto p-2"
+                            onClick={() => handleAccountSelect(account.id)}
+                        >
+                            <div className="flex items-center gap-3 w-full">
+                            <Avatar className="w-8 h-8">
+                                <AvatarImage src={summary.avatar} alt={summary.displayName} />
+                                <AvatarFallback>
+                                {summary.displayName.charAt(0).toUpperCase()}
+                                </AvatarFallback>
+                            </Avatar>
+                            <div className="flex-1 text-left">
+                                <div className="font-medium text-sm">@{account.username}</div>
+                                {/* ステータス表示 */}
+                                <div className="flex items-center gap-2 mt-1">
+                                <div className={`w-2 h-2 rounded-full ${
+                                    account.is_active ? 'bg-green-500' : 'bg-gray-400'
+                                }`} />
+                                <span className="text-xs text-muted-foreground">
+                                    {account.is_active ? 'アクティブ' : '無効'}
+                                </span>
+                                {summary.tokenWarning !== 'none' && (
+                                    <>
+                                    <AlertTriangle className="w-3 h-3 text-orange-500" />
+                                    <span className="text-xs text-orange-600">
+                                        {summary.daysUntilExpiry !== undefined ? 
+                                        `${summary.daysUntilExpiry}日後期限切れ` : 
+                                        '期限切れ'}
+                                    </span>
+                                    </>
+                                )}
+                                </div>
                             </div>
-                          </div>
-                          {selectedAccount?.id === account.id && (
-                            <Check className="w-4 h-4 text-primary" />
-                          )}
-                        </div>
-                      </Button>
-                    );
-                  })
-                )}
-            </div>
+                            {selectedAccount?.id === account.id && (
+                                <Check className="w-4 h-4 text-primary" />
+                            )}
+                            </div>
+                        </Button>
+                        );
+                    })
+                    )}
+                </div>
+                </ScrollArea>
             </PopoverContent>
         </Popover>
     </div>

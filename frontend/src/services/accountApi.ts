@@ -263,7 +263,7 @@ class AccountApiClient {
         const accounts = await this.getAccounts({ active_only: false, include_metrics: false });
         const account = accounts.accounts.find(acc => acc.instagram_user_id === instagramUserId);
         return account || null;
-      } catch (listError) {
+      } catch {
         console.warn('Failed to find account by Instagram ID:', error);
         return null;
       }

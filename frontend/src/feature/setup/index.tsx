@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { SetupForm } from "./components/SetupForm";
 import { AccountTable } from "./components/AccountTable";
 import { setupApi } from "./services/setupApi";
@@ -18,12 +18,7 @@ export default function Setup() {
   const [accounts, setAccounts] = useState<AccountTableRow[]>([]);
   const [loading, setLoading] = useState(false);
 
-  // 初期データ読み込み
-  useEffect(() => {
-    loadAccounts();
-  }, []);
-
-  const loadAccounts = async () => {
+  const loadAccounts = useCallback(async () => {
     try {
       setLoading(true);
       const response = await setupApi.getAccounts(true);
@@ -34,7 +29,12 @@ export default function Setup() {
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
+
+  // 初期データ読み込み
+  useEffect(() => {
+    loadAccounts();
+  }, [loadAccounts]);
 
   const transformAccountToTableRow = (account: CreatedAccount): AccountTableRow => {
     // トークン状態を判定

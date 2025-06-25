@@ -8,15 +8,14 @@ import {
   UseAccountReturn, 
   UseAccountOptions,
   TokenValidationResponse,
-  AccountStatus,
-  InstagramAccount 
+  AccountStatus
 } from '../types/account';
 
 /**
  * アカウント管理フック
  * グローバルアカウント状態とAPI操作を提供
  */
-export function useAccount(options: UseAccountOptions = {}): UseAccountReturn {
+export function useAccount(): UseAccountReturn {
   const context = useAccountContext();
   
   if (!context) {

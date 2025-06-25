@@ -156,22 +156,13 @@ export function usePostInsights(
     setState(prev => ({ ...prev, loading }));
   }, []);
 
-  // キャッシュ有効性チェック
-  const isCacheValid = useCallback((): boolean => {
-    if (!state.lastFetched || !opts.cacheTime) return false;
-    
-    const now = new Date().getTime();
-    const lastFetchTime = state.lastFetched.getTime();
-    
-    return (now - lastFetchTime) < opts.cacheTime;
-  }, [state.lastFetched, opts.cacheTime]);
 
   // パラメータが更新された時にcurrentParamsを更新
   useEffect(() => {
     setCurrentParams(initialParams);
     currentParamsRef.current = initialParams;
     hasFetchedRef.current = false; // パラメータ変更時はフェッチ状態をリセット
-  }, [initialParams.account_id, initialParams.from_date, initialParams.to_date, initialParams.media_type, initialParams.limit]);
+  }, [initialParams]);
 
   // currentParamsとrefを同期
   useEffect(() => {
@@ -183,7 +174,7 @@ export function usePostInsights(
     if (opts.autoFetch && currentParams.account_id && !hasFetchedRef.current) {
       fetchData();
     }
-  }, [opts.autoFetch, currentParams.account_id]);
+  }, [opts.autoFetch, currentParams.account_id, fetchData]);
 
   return {
     ...state,

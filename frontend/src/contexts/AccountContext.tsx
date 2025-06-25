@@ -225,7 +225,7 @@ export function AccountProvider({ children, defaultAccountId }: AccountProviderP
     };
 
     initializeAccounts();
-  }, []); // 依存配列を空にして初期化時のみ実行
+  }, [loadFromCache, loadSelectedAccount, refreshAccounts]); // eslint依存関係を修正
 
   // Context値
   const contextValue: AccountContextValue = {
