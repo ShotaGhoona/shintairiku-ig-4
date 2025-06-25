@@ -6,7 +6,6 @@ import { useAccountContext } from '../contexts/AccountContext';
 import { accountApi } from '../services/accountApi';
 import { 
   UseAccountReturn, 
-  UseAccountOptions,
   TokenValidationResponse,
   AccountStatus
 } from '../types/account';

@@ -180,6 +180,7 @@ export default function Header() {
                             </Avatar>
                             <div className="flex-1 text-left">
                                 <div className="font-medium text-sm">@{account.username}</div>
+                                <span className="text-xs text-muted-foreground">{account.account_name && account.account_name.length > 20 ? account.account_name.slice(0, 20) + '...' : account.account_name}</span>
                                 {/* ステータス表示 */}
                                 <div className="flex items-center gap-2 mt-1">
                                 <div className={`w-2 h-2 rounded-full ${
