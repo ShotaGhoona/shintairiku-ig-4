@@ -86,7 +86,7 @@ export default function PostInsight() {
   const filteredData = getFilteredData();
 
   return (
-    <div id="post-analysis-content" className="space-y-6 p-6">
+    <div className="space-y-6 p-6">
       {/* ヘッダー */}
       <div className="flex items-center justify-between">
         <div>
@@ -190,7 +190,7 @@ export default function PostInsight() {
       )}
 
       {/* データ表示 */}
-      <div className="space-y-6">
+      <div id="post-analysis-content" className="space-y-6">
         {!selectedAccount ? (
           <div className="flex items-center justify-center h-32">
             <div className="text-center text-muted-foreground">

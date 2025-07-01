@@ -39,7 +39,6 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <main className="container mx-auto px-6 py-12">
-        <div className="max-w-6xl mx-auto">
 
           {/* Features Grid */}
           <div className="grid md:grid-cols-3 gap-6">
@@ -63,20 +62,6 @@ export default function Home() {
               </Card>
             ))}
           </div>
-
-          {/* Trust Indicators */}
-          <div className="text-center mt-12 pt-8 border-t border-gray-200">
-            <p className="text-sm text-gray-500 mb-4">
-              ✨ プロフェッショナルなInstagramアナリティクス
-            </p>
-            <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-600">
-              <span>📊 リアルタイム分析</span>
-              <span>📈 成長トレンド</span>
-              <span>📋 PDF レポート</span>
-              <span>🔒 安全な接続</span>
-            </div>
-          </div>
-        </div>
       </main>
     </div>
   );
