@@ -29,8 +29,6 @@ jobs:
     
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      FACEBOOK_APP_ID: ${{ secrets.FACEBOOK_APP_ID }}
-      FACEBOOK_APP_SECRET: ${{ secrets.FACEBOOK_APP_SECRET }}
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       
     steps:

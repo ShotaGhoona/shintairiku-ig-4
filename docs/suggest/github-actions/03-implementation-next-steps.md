@@ -10,11 +10,12 @@
 ### 1. GitHub Secrets の設定
 リポジトリの `Settings > Secrets and variables > Actions` で設定：
 
+**必須:**
 ```
 DATABASE_URL=postgresql://user:password@host:port/database
 ```
 
-オプション（Slack通知を使う場合）：
+**オプション（Slack通知を使う場合）:**
 ```
 SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
 ```
