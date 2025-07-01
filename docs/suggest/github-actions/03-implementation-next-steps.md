@@ -7,7 +7,17 @@
 
 ## 🚀 やらないといけないこと（必須）
 
-### 1. GitHub Secrets の設定
+### 1. データベースマイグレーション実行
+**最重要：** まず最初にデータベーステーブル構造を更新する必要があります。
+
+```bash
+cd backend
+python scripts/run_migration_007.py
+```
+
+これで`instagram_daily_stats`テーブルに`media_count`カラムが追加され、不要なカラムが削除されます。
+
+### 2. GitHub Secrets の設定
 リポジトリの `Settings > Secrets and variables > Actions` で設定：
 
 **必須:**
@@ -20,7 +30,7 @@ DATABASE_URL=postgresql://user:password@host:port/database
 SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
 ```
 
-### 2. Repository メソッドの非同期化確認
+### 3. Repository メソッドの非同期化確認
 以下のRepositoryメソッドが `async def` になっているか確認：
 
 ```python
@@ -41,7 +51,7 @@ async def create(self, post_data: dict)
 async def create(self, metrics_data: dict)
 ```
 
-### 3. 初回動作テスト
+### 4. 初回動作テスト
 ```bash
 cd backend
 
@@ -56,10 +66,11 @@ python scripts/github_actions/new_posts_collector.py --check-hours-back 24
 
 ## ✅ 完了確認
 
-1. **GitHub Secrets設定完了** □
-2. **Repository非同期化確認完了** □  
-3. **手動テスト成功** □
-4. **GitHub Actions有効化** □
+1. **データベースマイグレーション実行完了** □
+2. **GitHub Secrets設定完了** □
+3. **Repository非同期化確認完了** □  
+4. **手動テスト成功** □
+5. **GitHub Actions有効化** □
 
 ---
 
