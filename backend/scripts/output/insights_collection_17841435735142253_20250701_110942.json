@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "operation_type": "account_insights_single",
+    "execution_timestamp": "2025-07-01T11:09:42.749337",
+    "execution_time_seconds": 89.44,
+    "script_version": "1.0"
+  },
+  "account_info": {
+    "account_id": "17841435735142253",
+    "instagram_user_id": "17841435735142253"
+  },
+  "collection_config": {
+    "collection_type": "account_insights",
+    "date_range": {
+      "start_date": "2025-06-01",
+      "end_date": "2025-07-01",
+      "total_days": 31
+    }
+  },
+  "execution_results": {
+    "total_days": 31,
+    "processed_days": 31,
+    "success_days": 31,
+    "failed_days": 0,
+    "success_rate_percent": 100.0
+  },
+  "timing": {
+    "started_at": "2025-07-01T11:08:17.590603",
+    "completed_at": "2025-07-01T11:09:42.748780",
+    "duration_seconds": 85.158177
+  },
+  "status": {
+    "completed_successfully": true,
+    "error_message": null
+  },
+  "collected_data": {
+    "insights_count": 31,
+    "insights": [
+      {
+        "date": "2025-06-01",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-02",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-03",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-04",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-05",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-06",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-07",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-08",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-09",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-10",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-11",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-12",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-13",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-14",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-15",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-16",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-17",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-18",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-19",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-20",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-21",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-22",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-23",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-24",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-25",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-26",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-27",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-28",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-29",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-06-30",
+        "reach": 0,
+        "follower_count_change": 0
+      },
+      {
+        "date": "2025-07-01",
+        "reach": 0,
+        "follower_count_change": 0
+      }
+    ]
+  }
+}

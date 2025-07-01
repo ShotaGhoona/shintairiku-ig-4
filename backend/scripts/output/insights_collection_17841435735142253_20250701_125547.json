@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "operation_type": "account_insights_single",
+    "execution_timestamp": "2025-07-01T12:55:47.702185",
+    "execution_time_seconds": 8.15,
+    "script_version": "1.0"
+  },
+  "account_info": {
+    "account_id": "17841435735142253",
+    "instagram_user_id": "17841435735142253"
+  },
+  "collection_config": {
+    "collection_type": "account_insights",
+    "date_range": {
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-01",
+      "total_days": 1
+    }
+  },
+  "execution_results": {
+    "total_days": 1,
+    "processed_days": 1,
+    "success_days": 1,
+    "failed_days": 0,
+    "success_rate_percent": 100.0
+  },
+  "timing": {
+    "started_at": "2025-07-01T12:55:44.144688",
+    "completed_at": "2025-07-01T12:55:47.701547",
+    "duration_seconds": 3.556859
+  },
+  "status": {
+    "completed_successfully": true,
+    "error_message": null
+  },
+  "collected_data": {
+    "insights_count": 1,
+    "insights": [
+      {
+        "date": "2025-07-01",
+        "reach": 0,
+        "follower_count_change": 0
+      }
+    ]
+  }
+}

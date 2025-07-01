@@ -36,4 +36,5 @@ EXPOSE 3000
 
 ENV PORT 3000
 
+# Next.js standaloneモードの起動
 CMD ["node", "server.js"]

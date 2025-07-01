@@ -208,24 +208,103 @@ export function AccountProvider({ children, defaultAccountId }: AccountProviderP
   useEffect(() => {
     const initializeAccounts = async () => {
       // キャッシュから読み込み試行
-      const cachedAccounts = loadFromCache();
+      const isCache = isValidCache();
+      let cachedAccounts: InstagramAccount[] | null = null;
+      
+      if (isCache) {
+        try {
+          const cachedData = localStorage.getItem(STORAGE_KEYS.ACCOUNTS_CACHE);
+          if (cachedData) {
+            cachedAccounts = JSON.parse(cachedData) as InstagramAccount[];
+            console.log('Loaded accounts from cache:', cachedAccounts.length);
+          }
+        } catch (error) {
+          console.warn('Failed to load accounts from cache:', error);
+        }
+      }
       
       if (cachedAccounts && cachedAccounts.length > 0) {
         setAccounts(cachedAccounts);
-        const selectedAcc = loadSelectedAccount(cachedAccounts);
+        
+        // 選択アカウントの復元
+        let selectedAcc: InstagramAccount | null = null;
+        try {
+          if (defaultAccountId) {
+            selectedAcc = cachedAccounts.find(acc => acc.instagram_user_id === defaultAccountId) || null;
+          }
+          if (!selectedAcc) {
+            const savedAccountId = localStorage.getItem(STORAGE_KEYS.SELECTED_ACCOUNT);
+            if (savedAccountId) {
+              selectedAcc = cachedAccounts.find(acc => acc.instagram_user_id === savedAccountId) || null;
+            }
+          }
+          if (!selectedAcc) {
+            selectedAcc = cachedAccounts.find(acc => acc.is_active) || cachedAccounts[0] || null;
+          }
+        } catch (error) {
+          console.warn('Failed to load selected account:', error);
+          selectedAcc = cachedAccounts[0] || null;
+        }
+        
         setSelectedAccount(selectedAcc);
         console.log('Initialized with cached accounts');
         
         // バックグラウンドで更新
-        setTimeout(() => refreshAccounts(), 100);
+        setTimeout(async () => {
+          try {
+            const response = await accountApi.getAccounts({
+              active_only: false,
+              include_metrics: true,
+            });
+            setAccounts(response.accounts);
+            saveToCache(response.accounts);
+          } catch (error) {
+            console.error('Background refresh failed:', error);
+          }
+        }, 100);
       } else {
         // キャッシュなしの場合は即座に取得
-        await refreshAccounts();
+        setLoading(true);
+        setError(null);
+        try {
+          const response = await accountApi.getAccounts({
+            active_only: false,
+            include_metrics: true,
+          });
+          setAccounts(response.accounts);
+          saveToCache(response.accounts);
+          
+          // 選択アカウントの設定
+          let selectedAcc: InstagramAccount | null = null;
+          if (defaultAccountId) {
+            selectedAcc = response.accounts.find(acc => acc.instagram_user_id === defaultAccountId) || null;
+          }
+          if (!selectedAcc) {
+            const savedAccountId = localStorage.getItem(STORAGE_KEYS.SELECTED_ACCOUNT);
+            if (savedAccountId) {
+              selectedAcc = response.accounts.find(acc => acc.instagram_user_id === savedAccountId) || null;
+            }
+          }
+          if (!selectedAcc) {
+            selectedAcc = response.accounts.find(acc => acc.is_active) || response.accounts[0] || null;
+          }
+          
+          setSelectedAccount(selectedAcc);
+          if (selectedAcc) {
+            saveSelectedAccount(selectedAcc);
+          }
+        } catch (err) {
+          const errorMessage = err instanceof Error ? err.message : 'Failed to fetch accounts';
+          setError(errorMessage);
+          console.error('Failed to initialize accounts:', err);
+        } finally {
+          setLoading(false);
+        }
       }
     };
 
     initializeAccounts();
-  }, [loadFromCache, loadSelectedAccount, refreshAccounts]); // eslint依存関係を修正
+  }, []); // 依存配列を空にして無限ループを防ぐ
 
   // Context値
   const contextValue: AccountContextValue = {

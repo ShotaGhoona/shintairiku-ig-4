@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { format } from "date-fns";
 import { Calendar as CalendarIcon, AlertCircle, Loader2 } from "lucide-react";
 import { DateRange } from "react-day-picker";
@@ -21,8 +21,8 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cn } from "@/lib/utils";
 
 export default function PostInsight() {
-  // デフォルトを先月に設定
-  const getLastMonth = () => {
+  // デフォルトを先月に設定（useCallbackでメモ化）
+  const getLastMonth = useCallback(() => {
     const now = new Date();
     const firstDayOfLastMonth = new Date(now.getFullYear(), now.getMonth() - 1, 1);
     const lastDayOfLastMonth = new Date(now.getFullYear(), now.getMonth(), 0);
@@ -30,9 +30,9 @@ export default function PostInsight() {
       from: firstDayOfLastMonth,
       to: lastDayOfLastMonth
     };
-  };
+  }, []);
 
-  const [date, setDate] = useState<DateRange | undefined>(getLastMonth());
+  const [date, setDate] = useState<DateRange | undefined>(() => getLastMonth());
   const [selectedType, setSelectedType] = useState<ContentType>("All");
 
   // 選択されたアカウントを取得

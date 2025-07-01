@@ -50,21 +50,21 @@ export default function Header() {
   };
 
   return (
-    <header className="flex justify-between items-center p-4 border-b bg-white">
+    <header className="flex justify-between items-center p-4 border-b" style={{ backgroundColor: '#c0b487', color: '#ffffff' }}>
       <nav className="flex items-center gap-2">
         {/* <Button variant="ghost" asChild>
           <Link href="/">ホーム</Link>
         </Button> */}
-        <Button variant="outline" asChild>
+        <Button variant="outline" asChild className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white">
           <Link href="/yearly-insight">年間分析</Link>
         </Button>
         {/* <Button variant="ghost" asChild>
           <Link href="/media-type-insight">メディアタイプ分析</Link>
         </Button> */}
-        <Button variant="outline" asChild>
+        <Button variant="outline" asChild className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white">
           <Link href="/monthly-insight">月間分析</Link>
         </Button>
-        <Button variant="outline" asChild>
+        <Button variant="outline" asChild className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white">
           <Link href="/post_insight">投稿分析</Link>
         </Button>
       </nav>
@@ -74,6 +74,7 @@ export default function Header() {
           size="sm"
           onClick={handleExport}
           disabled={isExporting}
+          className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white"
         >
           <Download className="h-4 w-4 mr-2" />
           {isExporting ? 'エクスポート中...' : 'PDF エクスポート'}
@@ -82,7 +83,7 @@ export default function Header() {
             <PopoverTrigger asChild>
             <Button 
                 variant="outline" 
-                className="flex items-center gap-2 h-10 px-3"
+                className="flex items-center gap-2 h-10 px-3 border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white"
                 disabled={loading && !selectedAccount}
             >
                 {loading && !selectedAccount ? (

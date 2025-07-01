@@ -57,6 +57,7 @@ class InstagramConfig:
         
         if missing_vars:
             logger.warning(f"Missing environment variables: {', '.join(missing_vars)}")
+            logger.info("Note: Facebook App ID/Secret are optional if using existing long-lived tokens")
         else:
             logger.info("Instagram API configuration validated successfully")
     

@@ -100,7 +100,7 @@
 
 :root {
   --radius: 0.625rem;
-  --background: #f7f9fc;
+  --background: #ffffff;
   --foreground: #404749;
   --card: #ffffff;
   --card-foreground: #404749;
@@ -131,6 +131,8 @@
   --sidebar-accent-foreground: #404749;
   --sidebar-border: #f5f5f5;
   --sidebar-ring: #f3a522;
+  --header-bg: #c0b487;
+  --header-foreground: #ffffff;
 }
 
 .dark {
@@ -172,6 +174,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white text-foreground;
   }
 }

@@ -75,7 +75,7 @@ export const exportToPDF = async () => {
         width: currentElement.scrollWidth,
         useCORS: true,
         allowTaint: true,
-        backgroundColor: '#f7f9fc'
+        backgroundColor: '#ffffff'
       });
 
       const imgData = canvas.toDataURL('image/png');

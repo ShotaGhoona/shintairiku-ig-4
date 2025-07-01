@@ -1,7 +1,7 @@
 // Post Insights Custom Hook
 // データフェッチング・状態管理・エラーハンドリング
 
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { PostInsightResponse, PostInsightParams, PostInsightData, MediaType } from '../types/postInsight';
 import { postInsightApi } from '../services/postInsightApi';
 
@@ -143,6 +143,7 @@ export function usePostInsights(
 
   // リフレッシュ関数
   const refresh = useCallback(async (): Promise<void> => {
+    hasFetchedRef.current = false; // フェッチ状態をリセット
     await fetchData();
   }, [fetchData]);
 
@@ -157,12 +158,27 @@ export function usePostInsights(
   }, []);
 
 
+  // initialParamsを安定化してオブジェクト再作成を防ぐ
+  const stableInitialParams = useMemo(() => ({
+    account_id: initialParams.account_id,
+    from_date: initialParams.from_date,
+    to_date: initialParams.to_date,
+    media_type: initialParams.media_type,
+    limit: initialParams.limit
+  }), [
+    initialParams.account_id,
+    initialParams.from_date,
+    initialParams.to_date,
+    initialParams.media_type,
+    initialParams.limit
+  ]);
+
   // パラメータが更新された時にcurrentParamsを更新
   useEffect(() => {
-    setCurrentParams(initialParams);
-    currentParamsRef.current = initialParams;
+    setCurrentParams(stableInitialParams);
+    currentParamsRef.current = stableInitialParams;
     hasFetchedRef.current = false; // パラメータ変更時はフェッチ状態をリセット
-  }, [initialParams]);
+  }, [stableInitialParams]);
 
   // currentParamsとrefを同期
   useEffect(() => {

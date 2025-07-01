@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "operation_type": "single_account",
+    "execution_timestamp": "2025-07-01T13:27:51.334242",
+    "execution_time_seconds": 20.38,
+    "script_version": "2.0-enhanced"
+  },
+  "account_info": {
+    "account_id": "17841426142742891",
+    "instagram_user_id": "17841426142742891"
+  },
+  "collection_config": {
+    "collection_type": "daily_stats_aggregation",
+    "date_range": {
+      "start_date": "2025-06-20",
+      "end_date": "2025-06-30"
+    }
+  },
+  "execution_results": {
+    "total_days": 11,
+    "processed_days": 11,
+    "success_days": 11,
+    "failed_days": 0,
+    "success_rate_percent": 100.0
+  },
+  "status": {
+    "completed_successfully": true,
+    "error_message": null
+  },
+  "collected_data": {
+    "current_account_data": {
+      "id": "17841426142742891",
+      "username": "ys_dolphin",
+      "name": "ドルフィン八戸店｜八戸市/十和田市/三沢市/リフォーム/リノベ/新築/エクステリア",
+      "biography": "株式会社吉田産業ドルフィンの公式Instagramアカウント。\n～おかげさまで吉田産業は創業100周年\nリフォーム工事は安心のドルフィンへ～",
+      "website": "https://www.ys-dolphin.jp/",
+      "profile_picture_url": "https://scontent-nrt1-1.xx.fbcdn.net/v/t51.2885-15/475331847_3904322273216782_2030392067769514897_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7d201b&_nc_ohc=SS1pRii9e8wQ7kNvwGdd2fH&_nc_oc=AdmdO9R4d-DivICEanXtXP2wkWZSHN7pR_3QlhwlqLkq3x1PEiGHq22cM-PyRkaG4kc&_nc_zt=23&_nc_ht=scontent-nrt1-1.xx&edm=AL-3X8kEAAAA&oh=00_AfPbKH3X49o15sWS_iyA0OsYdtcg0MXgIIwUtHETXLtWng&oe=68694032",
+      "followers_count": 742,
+      "follows_count": 411,
+      "media_count": 388,
+      "is_published": true
+    },
+    "daily_stats": [
+      {
+        "date": "2025-06-20",
+        "posts_count": 2,
+        "total_likes": 24,
+        "total_comments": 0,
+        "media_types": {
+          "CAROUSEL_ALBUM": 2
+        }
+      },
+      {
+        "date": "2025-06-21",
+        "posts_count": 0,
+        "total_likes": 0,
+        "total_comments": 0,
+        "media_types": {}
+      },
+      {
+        "date": "2025-06-22",
+        "posts_count": 0,
+        "total_likes": 0,
+        "total_comments": 0,
+        "media_types": {}
+      },
+      {
+        "date": "2025-06-23",
+        "posts_count": 0,
+        "total_likes": 0,
+        "total_comments": 0,
+        "media_types": {}
+      },
+      {
+        "date": "2025-06-24",
+        "posts_count": 1,
+        "total_likes": 11,
+        "total_comments": 0,
+        "media_types": {
+          "CAROUSEL_ALBUM": 1
+        }
+      },
+      {
+        "date": "2025-06-25",
+        "posts_count": 0,
+        "total_likes": 0,
+        "total_comments": 0,
+        "media_types": {}
+      },
+      {
+        "date": "2025-06-26",
+        "posts_count": 1,
+        "total_likes": 10,
+        "total_comments": 0,
+        "media_types": {
+          "CAROUSEL_ALBUM": 1
+        }
+      },
+      {
+        "date": "2025-06-27",
+        "posts_count": 1,
+        "total_likes": 11,
+        "total_comments": 0,
+        "media_types": {
+          "CAROUSEL_ALBUM": 1
+        }
+      },
+      {
+        "date": "2025-06-28",
+        "posts_count": 0,
+        "total_likes": 0,
+        "total_comments": 0,
+        "media_types": {}
+      },
+      {
+        "date": "2025-06-29",
+        "posts_count": 0,
+        "total_likes": 0,
+        "total_comments": 0,
+        "media_types": {}
+      },
+      {
+        "date": "2025-06-30",
+        "posts_count": 0,
+        "total_likes": 0,
+        "total_comments": 0,
+        "media_types": {}
+      }
+    ]
+  }
+}

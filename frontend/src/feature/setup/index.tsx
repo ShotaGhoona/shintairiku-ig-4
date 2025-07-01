@@ -33,8 +33,21 @@ export default function Setup() {
 
   // 初期データ読み込み
   useEffect(() => {
-    loadAccounts();
-  }, [loadAccounts]);
+    const loadAccountsOnMount = async () => {
+      try {
+        setLoading(true);
+        const response = await setupApi.getAccounts(true);
+        const mappedAccounts: AccountTableRow[] = response.accounts.map(transformAccountToTableRow);
+        setAccounts(mappedAccounts);
+      } catch (error) {
+        console.error('Failed to load accounts:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    loadAccountsOnMount();
+  }, []); // 依存配列を空にして無限ループを防ぐ
 
   const transformAccountToTableRow = (account: CreatedAccount): AccountTableRow => {
     // トークン状態を判定

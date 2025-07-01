@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "operation_type": "single_account",
+    "execution_timestamp": "2025-07-01T10:19:34.729075",
+    "execution_time_seconds": 181.66,
+    "script_version": "2.0-simplified"
+  },
+  "account_info": {
+    "account_id": "17841435735142253",
+    "instagram_user_id": "17841435735142253"
+  },
+  "collection_config": {
+    "collection_type": "both",
+    "date_range": {
+      "start_date": "2025-01-01",
+      "end_date": "2025-07-01"
+    }
+  },
+  "execution_results": {
+    "total_items": 51,
+    "processed_items": 51,
+    "success_items": 51,
+    "failed_items": 0,
+    "success_rate_percent": 100.0
+  },
+  "timing": {
+    "started_at": "2025-07-01T10:16:39.730050",
+    "completed_at": "2025-07-01T10:19:34.643305",
+    "duration_seconds": 174.913255
+  },
+  "status": {
+    "completed_successfully": true,
+    "error_message": null
+  }
+}
