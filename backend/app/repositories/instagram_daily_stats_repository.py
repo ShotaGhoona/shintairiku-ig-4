@@ -218,8 +218,8 @@ class InstagramDailyStatsRepository:
         if stats.total_likes > 0 or stats.total_comments > 0:
             score += 25
         
-        # リーチデータ（20点）
-        if stats.reach > 0:
+        # メディア数データ（20点）
+        if stats.media_count > 0:
             score += 20
         
         return round(min(score, max_score), 2)

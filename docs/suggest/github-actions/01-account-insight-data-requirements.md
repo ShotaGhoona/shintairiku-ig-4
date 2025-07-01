@@ -455,13 +455,10 @@ class AccountInsightsCollector(BaseCollector):
             'stats_date': target_date,
             'followers_count': basic_data.get('followers_count', 0),
             'following_count': basic_data.get('follows_count', 0),
-            'reach': 0,  # API制限により取得不可
-            'follower_count_change': 0,  # API制限により取得不可
+            'media_count': basic_data.get('media_count', 0),
             'posts_count': posts_count,
             'total_likes': total_likes,
             'total_comments': total_comments,
-            'avg_likes_per_post': round(avg_likes_per_post, 2),
-            'avg_comments_per_post': round(avg_comments_per_post, 2),
             'media_type_distribution': json.dumps(media_types),
             'data_sources': json.dumps(['github_actions_daily_collection'])
         }

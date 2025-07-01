@@ -1,0 +1,981 @@
+{
+  "metadata": {
+    "operation_type": "all_accounts",
+    "execution_timestamp": "2025-07-01T16:17:29.967037",
+    "execution_time_seconds": 21323.59,
+    "script_version": "2.0-simplified"
+  },
+  "summary": {
+    "total_accounts": 96,
+    "successful_accounts": 95,
+    "failed_accounts": 1,
+    "account_success_rate_percent": 99.0,
+    "total_data_items": 5187,
+    "successful_data_items": 5187,
+    "failed_data_items": 0,
+    "data_success_rate_percent": 100.0
+  },
+  "account_results": [
+    {
+      "account_id": "17841426142742891",
+      "instagram_user_id": "17841426142742891",
+      "success": true,
+      "total_items": 87,
+      "success_items": 87,
+      "failed_items": 0,
+      "duration_seconds": 286.31226,
+      "error_message": null
+    },
+    {
+      "account_id": "17841461513791818",
+      "instagram_user_id": "17841461513791818",
+      "success": true,
+      "total_items": 42,
+      "success_items": 42,
+      "failed_items": 0,
+      "duration_seconds": 144.712899,
+      "error_message": null
+    },
+    {
+      "account_id": "17841456045133920",
+      "instagram_user_id": "17841456045133920",
+      "success": true,
+      "total_items": 0,
+      "success_items": 0,
+      "failed_items": 0,
+      "duration_seconds": 1.482831,
+      "error_message": null
+    },
+    {
+      "account_id": "17841406474781348",
+      "instagram_user_id": "17841406474781348",
+      "success": true,
+      "total_items": 52,
+      "success_items": 52,
+      "failed_items": 0,
+      "duration_seconds": 184.017916,
+      "error_message": null
+    },
+    {
+      "account_id": "17841467028123539",
+      "instagram_user_id": "17841467028123539",
+      "success": true,
+      "total_items": 74,
+      "success_items": 74,
+      "failed_items": 0,
+      "duration_seconds": 251.283345,
+      "error_message": null
+    },
+    {
+      "account_id": "17841435735142253",
+      "instagram_user_id": "17841435735142253",
+      "success": true,
+      "total_items": 51,
+      "success_items": 51,
+      "failed_items": 0,
+      "duration_seconds": 175.357723,
+      "error_message": null
+    },
+    {
+      "account_id": "17841449881467012",
+      "instagram_user_id": "17841449881467012",
+      "success": true,
+      "total_items": 52,
+      "success_items": 52,
+      "failed_items": 0,
+      "duration_seconds": 183.550006,
+      "error_message": null
+    },
+    {
+      "account_id": "17841464827990120",
+      "instagram_user_id": "17841464827990120",
+      "success": true,
+      "total_items": 43,
+      "success_items": 43,
+      "failed_items": 0,
+      "duration_seconds": 156.779971,
+      "error_message": null
+    },
+    {
+      "account_id": "17841463881537038",
+      "instagram_user_id": "17841463881537038",
+      "success": true,
+      "total_items": 33,
+      "success_items": 33,
+      "failed_items": 0,
+      "duration_seconds": 108.539417,
+      "error_message": null
+    },
+    {
+      "account_id": "17841463085395950",
+      "instagram_user_id": "17841463085395950",
+      "success": true,
+      "total_items": 19,
+      "success_items": 19,
+      "failed_items": 0,
+      "duration_seconds": 61.797436,
+      "error_message": null
+    },
+    {
+      "account_id": "17841463451577931",
+      "instagram_user_id": "17841463451577931",
+      "success": true,
+      "total_items": 51,
+      "success_items": 51,
+      "failed_items": 0,
+      "duration_seconds": 169.106047,
+      "error_message": null
+    },
+    {
+      "account_id": "17841431489754151",
+      "instagram_user_id": "17841431489754151",
+      "success": true,
+      "total_items": 8,
+      "success_items": 8,
+      "failed_items": 0,
+      "duration_seconds": 29.32564,
+      "error_message": null
+    },
+    {
+      "account_id": "17841462677840157",
+      "instagram_user_id": "17841462677840157",
+      "success": true,
+      "total_items": 0,
+      "success_items": 0,
+      "failed_items": 0,
+      "duration_seconds": 1.363809,
+      "error_message": null
+    },
+    {
+      "account_id": "17841461914324110",
+      "instagram_user_id": "17841461914324110",
+      "success": true,
+      "total_items": 76,
+      "success_items": 76,
+      "failed_items": 0,
+      "duration_seconds": 274.41941,
+      "error_message": null
+    },
+    {
+      "account_id": "17841409001397248",
+      "instagram_user_id": "17841409001397248",
+      "success": true,
+      "total_items": 55,
+      "success_items": 55,
+      "failed_items": 0,
+      "duration_seconds": 205.570136,
+      "error_message": null
+    },
+    {
+      "account_id": "17841461319651461",
+      "instagram_user_id": "17841461319651461",
+      "success": true,
+      "total_items": 67,
+      "success_items": 67,
+      "failed_items": 0,
+      "duration_seconds": 241.305479,
+      "error_message": null
+    },
+    {
+      "account_id": "17841458725009951",
+      "instagram_user_id": "17841458725009951",
+      "success": true,
+      "total_items": 37,
+      "success_items": 37,
+      "failed_items": 0,
+      "duration_seconds": 133.888398,
+      "error_message": null
+    },
+    {
+      "account_id": "17841411302274803",
+      "instagram_user_id": "17841411302274803",
+      "success": true,
+      "total_items": 30,
+      "success_items": 30,
+      "failed_items": 0,
+      "duration_seconds": 118.785441,
+      "error_message": null
+    },
+    {
+      "account_id": "17841402351681469",
+      "instagram_user_id": "17841402351681469",
+      "success": true,
+      "total_items": 84,
+      "success_items": 84,
+      "failed_items": 0,
+      "duration_seconds": 339.368832,
+      "error_message": null
+    },
+    {
+      "account_id": "17841459897067627",
+      "instagram_user_id": "17841459897067627",
+      "success": true,
+      "total_items": 0,
+      "success_items": 0,
+      "failed_items": 0,
+      "duration_seconds": 1.265198,
+      "error_message": null
+    },
+    {
+      "account_id": "17841457623624620",
+      "instagram_user_id": "17841457623624620",
+      "success": true,
+      "total_items": 44,
+      "success_items": 44,
+      "failed_items": 0,
+      "duration_seconds": 168.806054,
+      "error_message": null
+    },
+    {
+      "account_id": "17841456832657594",
+      "instagram_user_id": "17841456832657594",
+      "success": true,
+      "total_items": 52,
+      "success_items": 52,
+      "failed_items": 0,
+      "duration_seconds": 194.593256,
+      "error_message": null
+    },
+    {
+      "account_id": "17841455714160281",
+      "instagram_user_id": "17841455714160281",
+      "success": true,
+      "total_items": 36,
+      "success_items": 36,
+      "failed_items": 0,
+      "duration_seconds": 124.734124,
+      "error_message": null
+    },
+    {
+      "account_id": "17841406217884721",
+      "instagram_user_id": "17841406217884721",
+      "success": true,
+      "total_items": 57,
+      "success_items": 57,
+      "failed_items": 0,
+      "duration_seconds": 215.006653,
+      "error_message": null
+    },
+    {
+      "account_id": "17841445588363035",
+      "instagram_user_id": "17841445588363035",
+      "success": true,
+      "total_items": 24,
+      "success_items": 24,
+      "failed_items": 0,
+      "duration_seconds": 90.722493,
+      "error_message": null
+    },
+    {
+      "account_id": "17841447232639573",
+      "instagram_user_id": "17841447232639573",
+      "success": true,
+      "total_items": 29,
+      "success_items": 29,
+      "failed_items": 0,
+      "duration_seconds": 104.709746,
+      "error_message": null
+    },
+    {
+      "account_id": "17841405588177125",
+      "instagram_user_id": "17841405588177125",
+      "success": true,
+      "total_items": 48,
+      "success_items": 48,
+      "failed_items": 0,
+      "duration_seconds": 220.473623,
+      "error_message": null
+    },
+    {
+      "account_id": "17841452904960921",
+      "instagram_user_id": "17841452904960921",
+      "success": true,
+      "total_items": 75,
+      "success_items": 75,
+      "failed_items": 0,
+      "duration_seconds": 265.135113,
+      "error_message": null
+    },
+    {
+      "account_id": "17841452791348565",
+      "instagram_user_id": "17841452791348565",
+      "success": true,
+      "total_items": 24,
+      "success_items": 24,
+      "failed_items": 0,
+      "duration_seconds": 90.076972,
+      "error_message": null
+    },
+    {
+      "account_id": "17841403870509997",
+      "instagram_user_id": "17841403870509997",
+      "success": true,
+      "total_items": 55,
+      "success_items": 55,
+      "failed_items": 0,
+      "duration_seconds": 212.900812,
+      "error_message": null
+    },
+    {
+      "account_id": "17841452383847755",
+      "instagram_user_id": "17841452383847755",
+      "success": true,
+      "total_items": 68,
+      "success_items": 68,
+      "failed_items": 0,
+      "duration_seconds": 255.260236,
+      "error_message": null
+    },
+    {
+      "account_id": "17841407147053273",
+      "instagram_user_id": "17841407147053273",
+      "success": true,
+      "total_items": 76,
+      "success_items": 76,
+      "failed_items": 0,
+      "duration_seconds": 270.327624,
+      "error_message": null
+    },
+    {
+      "account_id": "17841424044135917",
+      "instagram_user_id": "17841424044135917",
+      "success": true,
+      "total_items": 51,
+      "success_items": 51,
+      "failed_items": 0,
+      "duration_seconds": 196.742042,
+      "error_message": null
+    },
+    {
+      "account_id": "17841423192379079",
+      "instagram_user_id": "17841423192379079",
+      "success": false,
+      "total_items": 0,
+      "success_items": 0,
+      "failed_items": 0,
+      "duration_seconds": 907.119312,
+      "error_message": "Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)"
+    },
+    {
+      "account_id": "17841411374874913",
+      "instagram_user_id": "17841411374874913",
+      "success": true,
+      "total_items": 53,
+      "success_items": 53,
+      "failed_items": 0,
+      "duration_seconds": 187.548996,
+      "error_message": null
+    },
+    {
+      "account_id": "17841448202561581",
+      "instagram_user_id": "17841448202561581",
+      "success": true,
+      "total_items": 112,
+      "success_items": 112,
+      "failed_items": 0,
+      "duration_seconds": 389.64177,
+      "error_message": null
+    },
+    {
+      "account_id": "17841447866020728",
+      "instagram_user_id": "17841447866020728",
+      "success": true,
+      "total_items": 24,
+      "success_items": 24,
+      "failed_items": 0,
+      "duration_seconds": 85.122727,
+      "error_message": null
+    },
+    {
+      "account_id": "17841437808135540",
+      "instagram_user_id": "17841437808135540",
+      "success": true,
+      "total_items": 42,
+      "success_items": 42,
+      "failed_items": 0,
+      "duration_seconds": 145.165173,
+      "error_message": null
+    },
+    {
+      "account_id": "17841439217836952",
+      "instagram_user_id": "17841439217836952",
+      "success": true,
+      "total_items": 50,
+      "success_items": 50,
+      "failed_items": 0,
+      "duration_seconds": 178.12711,
+      "error_message": null
+    },
+    {
+      "account_id": "17841404017509951",
+      "instagram_user_id": "17841404017509951",
+      "success": true,
+      "total_items": 95,
+      "success_items": 95,
+      "failed_items": 0,
+      "duration_seconds": 387.92387,
+      "error_message": null
+    },
+    {
+      "account_id": "17841421777736493",
+      "instagram_user_id": "17841421777736493",
+      "success": true,
+      "total_items": 58,
+      "success_items": 58,
+      "failed_items": 0,
+      "duration_seconds": 225.503362,
+      "error_message": null
+    },
+    {
+      "account_id": "17841444142495596",
+      "instagram_user_id": "17841444142495596",
+      "success": true,
+      "total_items": 45,
+      "success_items": 45,
+      "failed_items": 0,
+      "duration_seconds": 163.636105,
+      "error_message": null
+    },
+    {
+      "account_id": "17841404889839066",
+      "instagram_user_id": "17841404889839066",
+      "success": true,
+      "total_items": 25,
+      "success_items": 25,
+      "failed_items": 0,
+      "duration_seconds": 111.815422,
+      "error_message": null
+    },
+    {
+      "account_id": "17841438694580774",
+      "instagram_user_id": "17841438694580774",
+      "success": true,
+      "total_items": 52,
+      "success_items": 52,
+      "failed_items": 0,
+      "duration_seconds": 199.841947,
+      "error_message": null
+    },
+    {
+      "account_id": "17841441127414955",
+      "instagram_user_id": "17841441127414955",
+      "success": true,
+      "total_items": 72,
+      "success_items": 72,
+      "failed_items": 0,
+      "duration_seconds": 306.999003,
+      "error_message": null
+    },
+    {
+      "account_id": "17841405919942980",
+      "instagram_user_id": "17841405919942980",
+      "success": true,
+      "total_items": 54,
+      "success_items": 54,
+      "failed_items": 0,
+      "duration_seconds": 224.776239,
+      "error_message": null
+    },
+    {
+      "account_id": "17841400614478311",
+      "instagram_user_id": "17841400614478311",
+      "success": true,
+      "total_items": 72,
+      "success_items": 72,
+      "failed_items": 0,
+      "duration_seconds": 291.678752,
+      "error_message": null
+    },
+    {
+      "account_id": "17841433051650546",
+      "instagram_user_id": "17841433051650546",
+      "success": true,
+      "total_items": 51,
+      "success_items": 51,
+      "failed_items": 0,
+      "duration_seconds": 207.580215,
+      "error_message": null
+    },
+    {
+      "account_id": "17841403256746535",
+      "instagram_user_id": "17841403256746535",
+      "success": true,
+      "total_items": 190,
+      "success_items": 190,
+      "failed_items": 0,
+      "duration_seconds": 729.970965,
+      "error_message": null
+    },
+    {
+      "account_id": "17841425064110340",
+      "instagram_user_id": "17841425064110340",
+      "success": true,
+      "total_items": 50,
+      "success_items": 50,
+      "failed_items": 0,
+      "duration_seconds": 185.861896,
+      "error_message": null
+    },
+    {
+      "account_id": "17841405646572607",
+      "instagram_user_id": "17841405646572607",
+      "success": true,
+      "total_items": 52,
+      "success_items": 52,
+      "failed_items": 0,
+      "duration_seconds": 179.496256,
+      "error_message": null
+    },
+    {
+      "account_id": "17841410962186905",
+      "instagram_user_id": "17841410962186905",
+      "success": true,
+      "total_items": 48,
+      "success_items": 48,
+      "failed_items": 0,
+      "duration_seconds": 165.652241,
+      "error_message": null
+    },
+    {
+      "account_id": "17841412209415682",
+      "instagram_user_id": "17841412209415682",
+      "success": true,
+      "total_items": 53,
+      "success_items": 53,
+      "failed_items": 0,
+      "duration_seconds": 199.267256,
+      "error_message": null
+    },
+    {
+      "account_id": "17841426450290666",
+      "instagram_user_id": "17841426450290666",
+      "success": true,
+      "total_items": 54,
+      "success_items": 54,
+      "failed_items": 0,
+      "duration_seconds": 199.181691,
+      "error_message": null
+    },
+    {
+      "account_id": "17841408127061723",
+      "instagram_user_id": "17841408127061723",
+      "success": true,
+      "total_items": 43,
+      "success_items": 43,
+      "failed_items": 0,
+      "duration_seconds": 160.805702,
+      "error_message": null
+    },
+    {
+      "account_id": "17841422455654370",
+      "instagram_user_id": "17841422455654370",
+      "success": true,
+      "total_items": 50,
+      "success_items": 50,
+      "failed_items": 0,
+      "duration_seconds": 181.94425,
+      "error_message": null
+    },
+    {
+      "account_id": "17841404854147606",
+      "instagram_user_id": "17841404854147606",
+      "success": true,
+      "total_items": 105,
+      "success_items": 105,
+      "failed_items": 0,
+      "duration_seconds": 411.162845,
+      "error_message": null
+    },
+    {
+      "account_id": "17841419816035449",
+      "instagram_user_id": "17841419816035449",
+      "success": true,
+      "total_items": 21,
+      "success_items": 21,
+      "failed_items": 0,
+      "duration_seconds": 84.725683,
+      "error_message": null
+    },
+    {
+      "account_id": "17841407247721897",
+      "instagram_user_id": "17841407247721897",
+      "success": true,
+      "total_items": 96,
+      "success_items": 96,
+      "failed_items": 0,
+      "duration_seconds": 382.592602,
+      "error_message": null
+    },
+    {
+      "account_id": "17841413944696225",
+      "instagram_user_id": "17841413944696225",
+      "success": true,
+      "total_items": 108,
+      "success_items": 108,
+      "failed_items": 0,
+      "duration_seconds": 430.312638,
+      "error_message": null
+    },
+    {
+      "account_id": "17841406242315741",
+      "instagram_user_id": "17841406242315741",
+      "success": true,
+      "total_items": 79,
+      "success_items": 79,
+      "failed_items": 0,
+      "duration_seconds": 330.73644,
+      "error_message": null
+    },
+    {
+      "account_id": "17841414423989479",
+      "instagram_user_id": "17841414423989479",
+      "success": true,
+      "total_items": 0,
+      "success_items": 0,
+      "failed_items": 0,
+      "duration_seconds": 2.021759,
+      "error_message": null
+    },
+    {
+      "account_id": "17841402010567475",
+      "instagram_user_id": "17841402010567475",
+      "success": true,
+      "total_items": 104,
+      "success_items": 104,
+      "failed_items": 0,
+      "duration_seconds": 457.458561,
+      "error_message": null
+    },
+    {
+      "account_id": "17841413518226555",
+      "instagram_user_id": "17841413518226555",
+      "success": true,
+      "total_items": 149,
+      "success_items": 149,
+      "failed_items": 0,
+      "duration_seconds": 551.804232,
+      "error_message": null
+    },
+    {
+      "account_id": "17841413906685571",
+      "instagram_user_id": "17841413906685571",
+      "success": true,
+      "total_items": 24,
+      "success_items": 24,
+      "failed_items": 0,
+      "duration_seconds": 84.532797,
+      "error_message": null
+    },
+    {
+      "account_id": "17841407432714443",
+      "instagram_user_id": "17841407432714443",
+      "success": true,
+      "total_items": 48,
+      "success_items": 48,
+      "failed_items": 0,
+      "duration_seconds": 181.54655,
+      "error_message": null
+    },
+    {
+      "account_id": "17841407125034923",
+      "instagram_user_id": "17841407125034923",
+      "success": true,
+      "total_items": 74,
+      "success_items": 74,
+      "failed_items": 0,
+      "duration_seconds": 301.752976,
+      "error_message": null
+    },
+    {
+      "account_id": "17841402088599519",
+      "instagram_user_id": "17841402088599519",
+      "success": true,
+      "total_items": 8,
+      "success_items": 8,
+      "failed_items": 0,
+      "duration_seconds": 36.479462,
+      "error_message": null
+    },
+    {
+      "account_id": "17841412087155089",
+      "instagram_user_id": "17841412087155089",
+      "success": true,
+      "total_items": 32,
+      "success_items": 32,
+      "failed_items": 0,
+      "duration_seconds": 127.884676,
+      "error_message": null
+    },
+    {
+      "account_id": "17841411569294458",
+      "instagram_user_id": "17841411569294458",
+      "success": true,
+      "total_items": 0,
+      "success_items": 0,
+      "failed_items": 0,
+      "duration_seconds": 8.694646,
+      "error_message": null
+    },
+    {
+      "account_id": "17841411280730554",
+      "instagram_user_id": "17841411280730554",
+      "success": true,
+      "total_items": 68,
+      "success_items": 68,
+      "failed_items": 0,
+      "duration_seconds": 246.230343,
+      "error_message": null
+    },
+    {
+      "account_id": "17841441841792926",
+      "instagram_user_id": "17841441841792926",
+      "success": true,
+      "total_items": 105,
+      "success_items": 105,
+      "failed_items": 0,
+      "duration_seconds": 389.263724,
+      "error_message": null
+    },
+    {
+      "account_id": "17841407570179864",
+      "instagram_user_id": "17841407570179864",
+      "success": true,
+      "total_items": 80,
+      "success_items": 80,
+      "failed_items": 0,
+      "duration_seconds": 313.843107,
+      "error_message": null
+    },
+    {
+      "account_id": "17841406385182584",
+      "instagram_user_id": "17841406385182584",
+      "success": true,
+      "total_items": 77,
+      "success_items": 77,
+      "failed_items": 0,
+      "duration_seconds": 295.053148,
+      "error_message": null
+    },
+    {
+      "account_id": "17841416839641597",
+      "instagram_user_id": "17841416839641597",
+      "success": true,
+      "total_items": 23,
+      "success_items": 23,
+      "failed_items": 0,
+      "duration_seconds": 91.380326,
+      "error_message": null
+    },
+    {
+      "account_id": "17841467132513308",
+      "instagram_user_id": "17841467132513308",
+      "success": true,
+      "total_items": 0,
+      "success_items": 0,
+      "failed_items": 0,
+      "duration_seconds": 1.704706,
+      "error_message": null
+    },
+    {
+      "account_id": "17841408876087452",
+      "instagram_user_id": "17841408876087452",
+      "success": true,
+      "total_items": 49,
+      "success_items": 49,
+      "failed_items": 0,
+      "duration_seconds": 191.255557,
+      "error_message": null
+    },
+    {
+      "account_id": "17841452732302418",
+      "instagram_user_id": "17841452732302418",
+      "success": true,
+      "total_items": 68,
+      "success_items": 68,
+      "failed_items": 0,
+      "duration_seconds": 233.617836,
+      "error_message": null
+    },
+    {
+      "account_id": "17841407014153138",
+      "instagram_user_id": "17841407014153138",
+      "success": true,
+      "total_items": 53,
+      "success_items": 53,
+      "failed_items": 0,
+      "duration_seconds": 199.193084,
+      "error_message": null
+    },
+    {
+      "account_id": "17841407320385458",
+      "instagram_user_id": "17841407320385458",
+      "success": true,
+      "total_items": 54,
+      "success_items": 54,
+      "failed_items": 0,
+      "duration_seconds": 200.901213,
+      "error_message": null
+    },
+    {
+      "account_id": "17841402015304577",
+      "instagram_user_id": "17841402015304577",
+      "success": true,
+      "total_items": 65,
+      "success_items": 65,
+      "failed_items": 0,
+      "duration_seconds": 227.87306,
+      "error_message": null
+    },
+    {
+      "account_id": "17841404359845605",
+      "instagram_user_id": "17841404359845605",
+      "success": true,
+      "total_items": 8,
+      "success_items": 8,
+      "failed_items": 0,
+      "duration_seconds": 46.388718,
+      "error_message": null
+    },
+    {
+      "account_id": "17841405475703622",
+      "instagram_user_id": "17841405475703622",
+      "success": true,
+      "total_items": 25,
+      "success_items": 25,
+      "failed_items": 0,
+      "duration_seconds": 103.1984,
+      "error_message": null
+    },
+    {
+      "account_id": "17841404249125401",
+      "instagram_user_id": "17841404249125401",
+      "success": true,
+      "total_items": 58,
+      "success_items": 58,
+      "failed_items": 0,
+      "duration_seconds": 199.783354,
+      "error_message": null
+    },
+    {
+      "account_id": "17841423810229554",
+      "instagram_user_id": "17841423810229554",
+      "success": true,
+      "total_items": 73,
+      "success_items": 73,
+      "failed_items": 0,
+      "duration_seconds": 256.57812,
+      "error_message": null
+    },
+    {
+      "account_id": "17841402897542134",
+      "instagram_user_id": "17841402897542134",
+      "success": true,
+      "total_items": 115,
+      "success_items": 115,
+      "failed_items": 0,
+      "duration_seconds": 423.037424,
+      "error_message": null
+    },
+    {
+      "account_id": "17841446484858061",
+      "instagram_user_id": "17841446484858061",
+      "success": true,
+      "total_items": 95,
+      "success_items": 95,
+      "failed_items": 0,
+      "duration_seconds": 328.819167,
+      "error_message": null
+    },
+    {
+      "account_id": "17841408722095197",
+      "instagram_user_id": "17841408722095197",
+      "success": true,
+      "total_items": 62,
+      "success_items": 62,
+      "failed_items": 0,
+      "duration_seconds": 226.230689,
+      "error_message": null
+    },
+    {
+      "account_id": "17841423209986406",
+      "instagram_user_id": "17841423209986406",
+      "success": true,
+      "total_items": 50,
+      "success_items": 50,
+      "failed_items": 0,
+      "duration_seconds": 173.545405,
+      "error_message": null
+    },
+    {
+      "account_id": "17841402380149920",
+      "instagram_user_id": "17841402380149920",
+      "success": true,
+      "total_items": 47,
+      "success_items": 47,
+      "failed_items": 0,
+      "duration_seconds": 182.284383,
+      "error_message": null
+    },
+    {
+      "account_id": "17841447676878109",
+      "instagram_user_id": "17841447676878109",
+      "success": true,
+      "total_items": 0,
+      "success_items": 0,
+      "failed_items": 0,
+      "duration_seconds": 7.746698,
+      "error_message": null
+    },
+    {
+      "account_id": "17841443553230014",
+      "instagram_user_id": "17841443553230014",
+      "success": true,
+      "total_items": 56,
+      "success_items": 56,
+      "failed_items": 0,
+      "duration_seconds": 200.003417,
+      "error_message": null
+    },
+    {
+      "account_id": "17841403948477463",
+      "instagram_user_id": "17841403948477463",
+      "success": true,
+      "total_items": 97,
+      "success_items": 97,
+      "failed_items": 0,
+      "duration_seconds": 356.81818,
+      "error_message": null
+    },
+    {
+      "account_id": "17841458523456144",
+      "instagram_user_id": "17841458523456144",
+      "success": true,
+      "total_items": 52,
+      "success_items": 52,
+      "failed_items": 0,
+      "duration_seconds": 176.235571,
+      "error_message": null
+    },
+    {
+      "account_id": "17841408189301604",
+      "instagram_user_id": "17841408189301604",
+      "success": true,
+      "total_items": 37,
+      "success_items": 37,
+      "failed_items": 0,
+      "duration_seconds": 136.516624,
+      "error_message": null
+    },
+    {
+      "account_id": "17841406536787531",
+      "instagram_user_id": "17841406536787531",
+      "success": true,
+      "total_items": 77,
+      "success_items": 77,
+      "failed_items": 0,
+      "duration_seconds": 259.087946,
+      "error_message": null
+    }
+  ],
+  "failed_accounts": []
+}

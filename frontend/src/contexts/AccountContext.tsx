@@ -46,22 +46,6 @@ export function AccountProvider({ children, defaultAccountId }: AccountProviderP
     }
   }, []);
 
-  // キャッシュからアカウント一覧取得
-  const loadFromCache = useCallback((): InstagramAccount[] | null => {
-    try {
-      if (!isValidCache()) return null;
-      
-      const cachedData = localStorage.getItem(STORAGE_KEYS.ACCOUNTS_CACHE);
-      if (!cachedData) return null;
-      
-      const accounts = JSON.parse(cachedData) as InstagramAccount[];
-      console.log('Loaded accounts from cache:', accounts.length);
-      return accounts;
-    } catch (error) {
-      console.warn('Failed to load accounts from cache:', error);
-      return null;
-    }
-  }, [isValidCache]);
 
   // アカウント一覧をキャッシュに保存
   const saveToCache = useCallback((accounts: InstagramAccount[]): void => {
@@ -304,7 +288,8 @@ export function AccountProvider({ children, defaultAccountId }: AccountProviderP
     };
 
     initializeAccounts();
-  }, []); // 依存配列を空にして無限ループを防ぐ
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // 初回のみ実行（依存関係を意図的に無視）
 
   // Context値
   const contextValue: AccountContextValue = {

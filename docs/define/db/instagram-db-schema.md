@@ -81,13 +81,10 @@ erDiagram
         date stats_date UK
         integer followers_count
         integer following_count
-        integer reach
-        integer follower_count_change
+        integer media_count
         integer posts_count
         integer total_likes
         integer total_comments
-        decimal avg_likes_per_post
-        decimal avg_comments_per_post
         text media_type_distribution
         text data_sources
         timestamp created_at
@@ -122,10 +119,10 @@ erDiagram
 |-----------|------------------|---------------|---------------------|
 | **基本情報** | `/{ig-user-id}` | `followers_count` | `instagram_daily_stats.followers_count` |
 | **基本情報** | `/{ig-user-id}` | `follows_count` | `instagram_daily_stats.following_count` |
-| **Insights** | `/{ig-user-id}/insights` | `reach` | `instagram_daily_stats.reach` |
-| **Insights** | `/{ig-user-id}/insights` | `follower_count` | `instagram_daily_stats.follower_count_change` |
+| **基本情報** | `/{ig-user-id}` | `media_count` | `instagram_daily_stats.media_count` |
 | **投稿** | `/{ig-user-id}/media` | `like_count` | 集約 → `instagram_daily_stats.total_likes` |
 | **投稿** | `/{ig-user-id}/media` | `comments_count` | 集約 → `instagram_daily_stats.total_comments` |
+| **投稿** | `/{ig-user-id}/media` | 投稿数カウント | 集約 → `instagram_daily_stats.posts_count` |
 | **投稿メトリクス** | `/{ig-media-id}/insights` | `likes` | `instagram_post_metrics.likes` |
 | **投稿メトリクス** | `/{ig-media-id}/insights` | `saved` | `instagram_post_metrics.saved` |
 
@@ -133,6 +130,14 @@ erDiagram
 
 ## API制限対応
 
-- **1日3コール**: 基本フィールド(1) + Insights(1) + 投稿(1)
-- **エラー耐性**: 基本フィールド優先、Insights失敗時は継続
-- **レート制限**: 200コール/時間 → 66アカウント/日対応可能
+- **1日2コール**: 基本フィールド(1) + 投稿(1) ※Insightsは取得不可のため削除
+- **エラー耐性**: 基本フィールド優先、投稿データ失敗時も継続
+- **レート制限**: 200コール/時間 → 100アカウント/日対応可能
+
+## 変更履歴
+
+### v1.1 (2025-07-01)
+- `instagram_daily_stats`テーブルをシンプル化
+- 取得不可能なInsightsフィールド削除: `reach`, `follower_count_change`
+- 計算可能フィールド削除: `avg_likes_per_post`, `avg_comments_per_post`
+- APIテスト結果に基づく現実的な構造に変更
