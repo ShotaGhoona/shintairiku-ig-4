@@ -55,15 +55,15 @@ export default function Header() {
         {/* <Button variant="ghost" asChild>
           <Link href="/">ホーム</Link>
         </Button> */}
-        <Button variant="outline" asChild className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white">
+        {/* <Button variant="outline" asChild className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white">
           <Link href="/yearly-insight">年間分析</Link>
-        </Button>
+        </Button> */}
         {/* <Button variant="ghost" asChild>
           <Link href="/media-type-insight">メディアタイプ分析</Link>
         </Button> */}
-        <Button variant="outline" asChild className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white">
+        {/* <Button variant="outline" asChild className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white">
           <Link href="/monthly-insight">月間分析</Link>
-        </Button>
+        </Button> */}
         <Button variant="outline" asChild className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white">
           <Link href="/post_insight">投稿分析</Link>
         </Button>

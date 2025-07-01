@@ -12,20 +12,20 @@ import {
 
 export default function Home() {
   const features = [
-    {
-      icon: Calendar,
-      title: "年間分析",
-      description: "月ごとの成長トレンドとエンゲージメント分析",
-      href: "/yearly-insight",
-      color: "text-blue-600"
-    },
-    {
-      icon: BarChart3,
-      title: "月間分析", 
-      description: "日別のパフォーマンスと詳細メトリクス",
-      href: "/monthly-insight",
-      color: "text-green-600"
-    },
+    // {
+    //   icon: Calendar,
+    //   title: "年間分析",
+    //   description: "月ごとの成長トレンドとエンゲージメント分析",
+    //   href: "/yearly-insight",
+    //   color: "text-blue-600"
+    // },
+    // {
+    //   icon: BarChart3,
+    //   title: "月間分析", 
+    //   description: "日別のパフォーマンスと詳細メトリクス",
+    //   href: "/monthly-insight",
+    //   color: "text-green-600"
+    // },
     {
       icon: ImageIcon,
       title: "投稿分析",
