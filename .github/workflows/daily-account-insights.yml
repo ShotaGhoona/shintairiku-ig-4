@@ -63,7 +63,7 @@ jobs:
         python scripts/github_actions/account_insights_collector.py \
           --target-date "${{ github.event.inputs.target_date }}" \
           --target-accounts "${{ github.event.inputs.target_accounts }}" \
-          --force-update ${{ github.event.inputs.force_update }} \
+          ${{ github.event.inputs.force_update == 'true' && '--force-update' || '' }} \
           --notify-slack \
           --log-level INFO
           

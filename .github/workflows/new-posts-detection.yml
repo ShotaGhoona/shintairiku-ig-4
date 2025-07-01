@@ -67,7 +67,7 @@ jobs:
         python scripts/github_actions/new_posts_collector.py \
           --target-accounts "${{ github.event.inputs.target_accounts }}" \
           --check-hours-back ${{ github.event.inputs.check_hours_back || 8 }} \
-          --force-reprocess ${{ github.event.inputs.force_reprocess }} \
+          ${{ github.event.inputs.force_reprocess == 'true' && '--force-reprocess' || '' }} \
           --notify-new-posts \
           --log-level INFO
           
