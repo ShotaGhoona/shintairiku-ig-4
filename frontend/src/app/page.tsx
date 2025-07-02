@@ -4,8 +4,6 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
-  BarChart3, 
-  Calendar, 
   Image as ImageIcon,
   ArrowRight
 } from "lucide-react";

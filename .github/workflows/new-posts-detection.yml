@@ -34,6 +34,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Setup Python 3.11
       uses: actions/setup-python@v4
@@ -78,10 +80,10 @@ jobs:
         # 実行状態の保存（成功・失敗問わず）
         python -c "
         import json
-        from datetime import datetime
+        from datetime import datetime, timezone
         
         state = {
-            'last_execution_time': datetime.now().isoformat(),
+            'last_execution_time': datetime.now(timezone.utc).isoformat(),
             'execution_id': '${{ github.run_id }}',
             'workflow_run': '${{ github.run_number }}',
             'trigger': '${{ github.event_name }}'

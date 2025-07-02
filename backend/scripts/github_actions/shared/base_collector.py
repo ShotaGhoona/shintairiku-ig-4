@@ -47,9 +47,20 @@ class BaseCollector:
     async def _cleanup_database(self):
         """データベース接続クリーンアップ"""
         if self.db:
-            self.db.close()
-            self.db = None
-            self.logger.info("Database connection closed")
+            try:
+                # 明示的にコミットしてからクローズ
+                self.db.commit()
+                self.db.close()
+                self.logger.info("Database connection closed")
+            except Exception as e:
+                self.logger.warning(f"Error during database cleanup: {e}")
+                try:
+                    self.db.rollback()
+                    self.db.close()
+                except Exception as cleanup_error:
+                    self.logger.error(f"Failed to cleanup database connection: {cleanup_error}")
+            finally:
+                self.db = None
             
     async def _get_target_accounts(self, target_accounts: Optional[List[str]] = None):
         """対象アカウント取得"""

@@ -14,7 +14,7 @@ import sys
 import argparse
 import logging
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Any, Optional
 import json
 from pathlib import Path
@@ -82,7 +82,7 @@ class NewPostsCollector(BaseCollector):
         execution_id = f"new_posts_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         result = NewPostsResult(
             execution_id=execution_id,
-            started_at=datetime.now()
+            started_at=datetime.now(timezone.utc)
         )
         
         try:
@@ -96,7 +96,7 @@ class NewPostsCollector(BaseCollector):
                 check_from = last_execution_time
                 self.logger.info(f"📅 Checking posts since last execution: {check_from}")
             else:
-                check_from = datetime.now() - timedelta(hours=check_hours_back)
+                check_from = datetime.now(timezone.utc) - timedelta(hours=check_hours_back)
                 self.logger.info(f"📅 Checking posts from {check_hours_back} hours back: {check_from}")
             
             # データベース接続初期化
@@ -136,7 +136,7 @@ class NewPostsCollector(BaseCollector):
                 # アカウント間の待機（API制限対応）
                 await asyncio.sleep(3)
             
-            result.completed_at = datetime.now()
+            result.completed_at = datetime.now(timezone.utc)
             
             # 実行時刻の更新
             self.execution_tracker.update_last_execution_time(result.started_at)
@@ -155,7 +155,7 @@ class NewPostsCollector(BaseCollector):
             return result
             
         except Exception as e:
-            result.completed_at = datetime.now()
+            result.completed_at = datetime.now(timezone.utc)
             error_msg = f"Critical error in new posts detection: {str(e)}"
             result.errors.append(error_msg)
             self.logger.error(error_msg, exc_info=True)

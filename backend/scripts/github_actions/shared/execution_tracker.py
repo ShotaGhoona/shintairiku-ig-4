@@ -4,7 +4,7 @@ Execution Tracker
 """
 
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 import logging
@@ -26,7 +26,11 @@ class ExecutionTracker:
                 
                 last_time_str = state.get('last_execution_time')
                 if last_time_str:
-                    return datetime.fromisoformat(last_time_str)
+                    dt = datetime.fromisoformat(last_time_str)
+                    # naive datetimeの場合はUTCとして扱う
+                    if dt.tzinfo is None:
+                        dt = dt.replace(tzinfo=timezone.utc)
+                    return dt
             
             return None
             
@@ -37,9 +41,15 @@ class ExecutionTracker:
     def update_last_execution_time(self, execution_time: datetime):
         """実行時刻更新"""
         try:
+            # タイムゾーン情報を含めて保存
+            if execution_time.tzinfo is None:
+                execution_time = execution_time.replace(tzinfo=timezone.utc)
+            
+            current_time = datetime.now(timezone.utc)
+            
             state = {
                 'last_execution_time': execution_time.isoformat(),
-                'updated_at': datetime.now().isoformat()
+                'updated_at': current_time.isoformat()
             }
             
             with open(self.state_file, 'w') as f:

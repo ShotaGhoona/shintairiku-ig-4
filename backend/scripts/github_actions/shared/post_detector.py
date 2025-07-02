@@ -3,7 +3,7 @@ Post Detector
 新規投稿検出ロジック
 """
 
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Any
 import logging
 
@@ -49,6 +49,11 @@ class PostDetector:
         try:
             # ISO 8601 format: "2025-07-01T10:30:45+0000"
             post_datetime = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+            
+            # check_fromがnaiveの場合はUTCに変換
+            if check_from.tzinfo is None:
+                check_from = check_from.replace(tzinfo=timezone.utc)
+            
             return post_datetime >= check_from
         except ValueError:
             self.logger.warning(f"Invalid timestamp format: {timestamp_str}")
@@ -66,5 +71,11 @@ class PostDetector:
             post_repo = InstagramPostRepository(db)
             existing_post = await post_repo.get_by_instagram_post_id(instagram_post_id)
             return existing_post is not None
+        except Exception as e:
+            self.logger.error(f"Database error checking post existence: {e}")
+            return False
         finally:
-            db.close()
+            try:
+                db.close()
+            except Exception as e:
+                self.logger.warning(f"Error closing database connection: {e}")
